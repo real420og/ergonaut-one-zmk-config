@@ -28,8 +28,7 @@
         vimCopyBuff: vimCopyBuff {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&to 1>, <&macro_tap>;
-
+            bindings = <&kp DQT &kp PLUS &kp Y>;
             label = "VIMCOPYBUFF";
         };
     };
