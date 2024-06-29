@@ -5,7 +5,7 @@ layers:
   - E
   - R
   - T
-  - ''
+  - {t: '&vimCopyBuff', h: lower}
   - Y
   - U
   - I
@@ -17,7 +17,7 @@ layers:
   - {t: D, h: LEFT COMMAND}
   - {t: F, h: Shift}
   - G
-  - ''
+  - ↹
   - H
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT COMMAND}
@@ -29,14 +29,14 @@ layers:
   - C
   - V
   - B
-  - ''
+  - BACKSPACE
   - N
   - M
   - ','
   - .
   - /
   - {t: \, h: Alt}
-  - {t: ↹, h: raise}
+  - {t: F16, h: raise}
   - {t: ESCAPE, h: Shift}
   - {t: ⏎, h: lower}
   - {t: Esc, h: lower}
@@ -169,5 +169,48 @@ layers:
   - ''
   - {type: held}
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
