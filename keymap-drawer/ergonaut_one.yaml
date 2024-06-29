@@ -37,7 +37,7 @@ layers:
   - /
   - {t: \, h: Alt}
   - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
+  - {t: ESCAPE, h: Shift}
   - {t: ⏎, h: lower}
   - {t: Esc, h: lower}
   - {t: ⌫, h: Shift}
