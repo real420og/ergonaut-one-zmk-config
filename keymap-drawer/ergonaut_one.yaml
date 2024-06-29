@@ -1,35 +1,35 @@
 layers:
   default:
-  - ']'
   - Q
   - W
   - E
   - R
   - T
+  - ''
   - Y
   - U
   - I
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
-  - {t: LEFT ALT, h: A}
-  - {t: Ctrl, h: S}
-  - LEFT COMMAND
-  - {t: LEFT SHIFT, h: F}
+  - {t: A, h: LEFT ALT}
+  - {t: S, h: Ctrl}
+  - {t: D, h: LEFT COMMAND}
+  - {t: F, h: Shift}
   - G
+  - ''
   - H
-  - {t: RIGHT SHIFT, h: J}
-  - {t: RIGHT COMMAND, h: K}
-  - {t: Ctrl, h: L}
-  - {t: RIGHT ALT, h: ;}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT COMMAND}
+  - {t: L, h: Ctrl}
+  - {t: ;, h: RIGHT ALT}
   - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
   - Z
   - X
   - C
   - V
   - B
+  - ''
   - N
   - M
   - ','
