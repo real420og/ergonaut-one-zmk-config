@@ -48,7 +48,7 @@ layers:
   - F3
   - F4
   - F5
-  - F6
+  - {t: F6, type: held}
   - F7
   - F8
   - F9
@@ -81,7 +81,7 @@ layers:
   - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -134,7 +134,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -167,7 +167,7 @@ layers:
   - Reset
   - {type: held}
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
