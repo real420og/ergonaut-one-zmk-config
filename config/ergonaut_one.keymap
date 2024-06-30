@@ -9,10 +9,7 @@
 
 &lt { quick-tap-ms = <200>; };
 
-&mt {
-    quick-tap-ms = <200>;
-    flavor = "tap-preferred";
-};
+&mt { quick-tap-ms = <200>; };
 
 / {
     conditional_layers {
@@ -42,6 +39,26 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        hml: homewrow_mods_left {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_LEFT_HAND";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-trigger-key-positions = <6 10 11 9 8 19 20 21 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 24 25 29 28 27 36 37 38 5 4 17 3 2 1 0 26 16>;
+        };
+
+        hmr: homewrow_mods_right {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_RIGHT_HAND";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 6 7 8 9 10 11 35 34 33 32 31 19 18 40 39 41 30>;
+        };
     };
 
     keymap {
@@ -49,10 +66,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W        &kp E               &kp R        &kp T             &new_behavior 1 0  &kp Y        &kp U              &kp I                &kp O        &kp P                    &kp LBKT
-&mt LEFT_ALT A  &mt LCTRL S  &mt LEFT_COMMAND D  &mt LSHFT F  &kp G             &kp TAB            &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_COMMAND K  &mt RCTRL L  &mt RIGHT_ALT SEMICOLON  &mt RCTRL SQT
-&kp Z           &kp X        &kp C               &kp V        &kp B             &kp BACKSPACE      &kp N        &kp M              &kp COMMA            &kp DOT      &kp FSLH                 &mt RALT BSLH
-                                                 &lt RSE F16  &mt LSHFT ESCAPE  &lt LWR RET        &lt LWR ESC  &mt RSHFT BSPC     &lt RSE DEL
+&kp Q            &kp W         &kp E                &kp R         &kp T             &new_behavior 1 0  &kp Y        &kp U              &kp I                &kp O        &kp P                    &kp LBKT
+&hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D  &hml LSHFT F  &kp G             &kp TAB            &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_COMMAND K  &mt RCTRL L  &mt RIGHT_ALT SEMICOLON  &mt RCTRL SQT
+&kp Z            &kp X         &kp C                &kp V         &kp B             &kp BACKSPACE      &kp N        &kp M              &kp COMMA            &kp DOT      &kp FSLH                 &mt RALT BSLH
+                                                    &lt RSE F16   &mt LSHFT ESCAPE  &lt LWR RET        &lt LWR ESC  &mt RSHFT BSPC     &lt RSE DEL
             >;
         };
 
