@@ -37,7 +37,7 @@ layers:
   - /
   - {t: \, h: Alt}
   - {t: F16, h: raise}
-  - {t: ESCAPE, h: '&lt 6'}
+  - {t: ESCAPE, h: '7'}
   - {t: ⏎, h: lower}
   - {t: Esc, h: lower}
   - {t: ⌫, h: Shift}
@@ -295,7 +295,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
