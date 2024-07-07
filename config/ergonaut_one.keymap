@@ -29,14 +29,14 @@
             label = "VIMCOPYBUFF";
         };
 
-        new_macro: new_macro {
+        minus_greater_than: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp GT>;
             label = "NEW_MACRO";
         };
 
-        new_macro2: new_macro2 {
+        alt_alt_without_releasing: new_macro2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -49,6 +49,20 @@
                 <&kp LEFT_ALT>;
 
             label = "NEW_MACRO2";
+        };
+
+        shift_shift: shift_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp LEFT_SHIFT>;
+            label = "SHIFT_SHIFT";
+        };
+
+        exclamatory_and_equal: exclamatory_and_equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EXCL &kp EQUAL>;
+            label = "EXCLAMATORY_AND_EQUAL";
         };
     };
 
@@ -105,10 +119,20 @@
             hold-trigger-on-release;
         };
 
-        new_behavior: new_behavior {
+        layer7_a: layer7_a {
             compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
-            bindings = <&new_macro2>, <&new_macro>;
+            label = "LAYER7_A";
+            bindings = <&alt_alt_without_releasing>, <&minus_greater_than>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        layer7_f: layer7_f {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER7_F";
+            bindings = <&shift_shift>, <&exclamatory_and_equal>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -175,10 +199,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 0 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &layer7_a 0 0  &trans  &trans  &layer7_f 0 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                               &trans  &trans         &trans  &trans  &trans  &trans
             >;
         };
     };

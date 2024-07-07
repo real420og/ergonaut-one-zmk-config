@@ -271,10 +271,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&new_macro', h: '&new_macro2'}
+  - {t: '&minus_greater_than', h: '&alt_alt_without_releasing'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '&exclamatory_and_equal', h: '&shift_shift'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
