@@ -271,7 +271,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&new_macro', h: '&key_repeat'}
+  - {t: '&new_macro', h: '&new_macro2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
