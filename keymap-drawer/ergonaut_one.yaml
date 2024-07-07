@@ -1,6 +1,6 @@
 layers:
   default:
-  - ↹
+  - ''
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - {t: L, h: Ctrl}
   - {t: ;, h: RIGHT ALT}
   - {t: '''', h: Ctrl}
-  - '`'
+  - ''
   - Z
   - X
   - C
