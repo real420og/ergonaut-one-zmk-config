@@ -35,18 +35,6 @@
             bindings = <&kp MINUS &kp GT>;
             label = "NEW_MACRO";
         };
-
-        new_macro2: new_macro2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
-
-            label = "NEW_MACRO2";
-        };
     };
 
     behaviors {
@@ -100,15 +88,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             hold-trigger-on-release;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
-            bindings = <&new_macro2>, <&new_macro>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
         };
     };
 
@@ -171,10 +150,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 0 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_macro  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
