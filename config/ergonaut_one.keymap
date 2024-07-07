@@ -35,6 +35,18 @@
             bindings = <&kp MINUS &kp GT>;
             label = "NEW_MACRO";
         };
+
+        new_macro2: new_macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "NEW_MACRO2";
+        };
     };
 
     behaviors {
@@ -90,17 +102,13 @@
             hold-trigger-on-release;
         };
 
-        hml2: hml2 {
+        new_behavior: new_behavior {
             compatible = "zmk,behavior-hold-tap";
-            label = "HML2";
-            bindings = <&kp>, <&kp>;
+            label = "NEW_BEHAVIOR";
+            bindings = <&new_macro2>, <&new_macro>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 24 25 26 17 29 0 1 2 3 4 5 27 28 36 37 38 4 5 16 17 28 29 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
-            flavor = "tap-preferred";
-            hold-while-undecided;
-            retro-tap;
         };
     };
 
@@ -110,7 +118,7 @@
         default_layer {
             bindings = <
 &none          &kp Q            &kp W         &kp E                &kp R                             &kp T      &kp Y      &kp U              &kp I                &kp O        &kp P                    &kp LBKT
-&kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D  &hml2 LEFT_SHIFT F                &kp G      &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_COMMAND K  &mt RCTRL L  &mt RIGHT_ALT SEMICOLON  &mt RCTRL SQT
+&kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D  &hml LEFT_SHIFT F                 &kp G      &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_COMMAND K  &mt RCTRL L  &mt RIGHT_ALT SEMICOLON  &mt RCTRL SQT
 &none          &kp Z            &kp X         &kp C                &kp V                             &kp B      &kp N      &kp M              &kp COMMA            &kp DOT      &kp FSLH                 &mt RALT BSLH
                                               &lt 2 F16            &lt_hold_prefer_release 6 ESCAPE  &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC     &lt 2 DEL
             >;
@@ -163,10 +171,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_macro  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 0 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
