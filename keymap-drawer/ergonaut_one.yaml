@@ -35,11 +35,11 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
+  - ENTER
   - {t: F16, h: raise}
   - {t: ESCAPE, h: '7'}
   - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
+  - {t: ␣, h: lower}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
   lower:
