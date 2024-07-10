@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - '-'
   - BACKSPACE
   - {t: A, h: LEFT ALT}
   - {t: S, h: Ctrl}
