@@ -149,6 +149,27 @@
             hold-trigger-on-release;
             flavor = "tap-preferred";
         };
+
+        hml2: hml2 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HML2";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
+            flavor = "hold-preferred";
+        };
+
+        hmr2: hmr2 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR2";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+        };
     };
 
     keymap {
@@ -157,7 +178,7 @@
         default_layer {
             bindings = <
 &none          &kp Q            &kp W         &kp E                          &kp R                             &kp T                            &kp Y                            &kp U                                  &kp I                                   &kp O         &kp P                     &kp LBKT
-&kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D            &hml LEFT_SHIFT F                 &kp G                            &kp H                            &hml RIGHT_SHIFT J                     &hml RIGHT_COMMAND K                    &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &mt RCTRL SQT
+&kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D            &hml2 LEFT_SHIFT F                &kp G                            &kp H                            &hmr2 RIGHT_SHIFT J                    &hml RIGHT_COMMAND K                    &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &mt RCTRL SQT
 &none          &kp Z            &kp X         &kp C                          &kp V                             &kp B                            &kp N                            &kp M                                  &kp COMMA                               &kp DOT       &kp FSLH                  &kp ENTER
                                               &lt_hold_prefer_release 2 F16  &lt_hold_prefer_release 7 ESCAPE  &lt_hold_prefer_release 1 GRAVE  &lt_hold_prefer_release 1 SPACE  &lt_tap_prefer_release 6 LEFT_BRACKET  &lt_tap_prefer_release 6 RIGHT_BRACKET
             >;
