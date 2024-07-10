@@ -38,10 +38,10 @@ layers:
   - ENTER
   - {t: F16, h: raise}
   - {t: ESCAPE, h: '7'}
-  - {t: ⏎, h: lower}
+  - {t: '`', h: lower}
   - {t: ␣, h: lower}
-  - {t: '[', h: '7'}
-  - {t: ']', h: '7'}
+  - {t: '[', h: '6'}
+  - {t: ']', h: '6'}
   lower:
   - {t: F1, h: Gui}
   - F2
@@ -214,7 +214,7 @@ layers:
   - {t: Esc, h: lower}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
-  '6':
+  '5':
   - {t: KP NUM, h: Gui}
   - KP SLASH
   - KP 7
@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '7':
+  '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -295,8 +295,51 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  '7':
+  - '&vimCopyBuff'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
