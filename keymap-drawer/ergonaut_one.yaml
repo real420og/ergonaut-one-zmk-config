@@ -87,47 +87,47 @@ layers:
   - {t: ▽, type: trans}
   raise:
   - '&vimCopyBuff'
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   adjust:
   - Boot
   - ''
