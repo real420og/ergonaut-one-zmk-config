@@ -37,7 +37,7 @@ layers:
   - /
   - ENTER
   - {t: F16, h: raise}
-  - {t: ESCAPE, h: '7'}
+  - {t: ESCAPE, h: lower}
   - {t: '`', h: lower}
   - {t: ␣, h: '6'}
   - {t: '[', h: '6'}
@@ -80,13 +80,13 @@ layers:
   - '0'
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   raise:
-  - '&vimCopyBuff'
+  - ''
   - ''
   - ''
   - ''
@@ -123,11 +123,11 @@ layers:
   - )
   - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   adjust:
   - Boot
   - Reset
@@ -166,8 +166,8 @@ layers:
   - ''
   - Reset
   - {type: held}
-  - ''
   - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -300,46 +300,5 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '7':
-  - '&vimCopyBuff'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
+  '7': ['&vimCopyBuff', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '!', '@', '#', $, '%', '', '', '', '', '', '', '', ^, '&', '*', (, ),
+    '', '', '', '', '', '', '']
