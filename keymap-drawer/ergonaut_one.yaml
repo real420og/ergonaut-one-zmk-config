@@ -36,98 +36,12 @@ layers:
   - .
   - /
   - ENTER
-  - {t: F16, h: raise}
-  - {t: ESCAPE, h: lower}
-  - {t: '`', h: lower}
-  - {t: ␣, h: '6'}
-  - {t: '[', h: '6'}
-  - {t: ']', h: '6'}
-  lower:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ''
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - ''
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: F16, h: signs}
+  - {t: ESCAPE, h: numbers}
+  - {t: '`', h: numbers}
+  - {t: ␣, h: arrows}
+  - {t: '[', h: arrows}
+  - {t: ']', h: arrows}
   adjust:
   - Boot
   - Reset
@@ -165,99 +79,13 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  old_default:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - {t: '&vimCopyBuff', h: lower}
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '['
-  - {t: A, h: LEFT ALT}
-  - {t: S, h: Ctrl}
-  - {t: D, h: LEFT COMMAND}
-  - {t: F, h: Shift}
-  - G
-  - ↹
-  - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT COMMAND}
-  - {t: L, h: Ctrl}
-  - {t: ;, h: RIGHT ALT}
-  - {t: '''', h: Ctrl}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - BACKSPACE
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - {t: \, h: Alt}
-  - {t: F16, h: raise}
-  - {t: ESCAPE, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
-  '5':
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '6':
+  arrows:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -300,5 +128,89 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '7': ['&vimCopyBuff', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '!', '@', '#', $, '%', '', '', '', '', '', '', '', ^, '&', '*', (, ),
-    '', '', '', '', '', '', '']
+  numbers:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  signs:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
