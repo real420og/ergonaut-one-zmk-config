@@ -24,7 +24,7 @@ layers:
   - {t: L, h: Ctrl}
   - {t: ;, h: RIGHT ALT}
   - {t: '''', h: Ctrl}
-  - ''
+  - adjust
   - Z
   - X
   - C
@@ -130,7 +130,7 @@ layers:
   - ''
   adjust:
   - Boot
-  - ''
+  - Reset
   - ''
   - ''
   - ''
@@ -153,21 +153,21 @@ layers:
   - BT 2
   - BT 1
   - BT CLR
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
   - {type: held}
   - ''
-  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
