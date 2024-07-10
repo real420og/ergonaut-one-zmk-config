@@ -40,8 +40,8 @@ layers:
   - {t: ESCAPE, h: '7'}
   - {t: ⏎, h: lower}
   - {t: ␣, h: lower}
-  - ␣
-  - {t: ⌦, h: raise}
+  - {t: '[', h: '7'}
+  - {t: ']', h: '7'}
   lower:
   - {t: F1, h: Gui}
   - F2
