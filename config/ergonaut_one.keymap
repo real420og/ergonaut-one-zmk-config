@@ -148,7 +148,7 @@
 &none          &kp Q            &kp W         &kp E                          &kp R                             &kp T                          &kp Y                            &kp U               &kp I                 &kp O         &kp P                     &kp LBKT
 &kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D            &hml LEFT_SHIFT F                 &kp G                          &kp H                            &hml RIGHT_SHIFT J  &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &mt RCTRL SQT
 &none          &kp Z            &kp X         &kp C                          &kp V                             &kp B                          &kp N                            &kp M               &kp COMMA             &kp DOT       &kp FSLH                  &kp ENTER
-                                              &lt_hold_prefer_release 2 F16  &lt_hold_prefer_release 6 ESCAPE  &lt_hold_prefer_release 1 RET  &lt_hold_prefer_release 1 SPACE  &mt RSHFT BSPC      &lt 2 DEL
+                                              &lt_hold_prefer_release 2 F16  &lt_hold_prefer_release 6 ESCAPE  &lt_hold_prefer_release 1 RET  &lt_hold_prefer_release 1 SPACE  &kp SPACE           &lt 2 DEL
             >;
         };
 
