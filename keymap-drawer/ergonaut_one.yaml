@@ -126,8 +126,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Ctl+Gui+ LEFT ARROW
+  - Alt+Ctl+Gui+ RIGHT ARROW
   numbers:
   - ''
   - ''
