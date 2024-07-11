@@ -92,12 +92,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Alt+ \
+  - Alt+ R
+  - Alt+ L
+  - Alt+ R
+  - Alt+ LEFT ARROW
+  - Alt+ RIGHT ARROW
   - F1
   - F2
   - F3
@@ -121,7 +121,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Sft+Ctl+ P
   - VOLUME DOWN
   - VOLUME UP
   - {t: MUTE, type: held}
