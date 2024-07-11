@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '5'
+  - {t: '5', h: sticky}
   - BACKSPACE
   - {t: A, h: LEFT ALT}
   - {t: S, h: Ctrl}
