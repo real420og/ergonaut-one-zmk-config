@@ -24,7 +24,7 @@ layers:
   - {t: L, h: Ctrl}
   - {t: ;, h: RIGHT ALT}
   - ''''
-  - Boot
+  - ''
   - Z
   - X
   - C
