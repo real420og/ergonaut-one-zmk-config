@@ -135,8 +135,8 @@ layers:
   - ''
   - ''
   - ''
-  - '-'
-  - '='
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -178,16 +178,16 @@ layers:
   - ''
   - ''
   - ''
-  - _
+  - '-'
   - +
+  - '='
+  - _
+  - '|'
+  - \
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&minus_greater_than'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&exclamatory_and_equal'
   - {t: ▽, type: trans}
   - ''
   - '!'
