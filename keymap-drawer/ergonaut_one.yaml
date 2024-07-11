@@ -186,7 +186,7 @@ layers:
   - \
   - ''
   - '&minus_greater_than'
-  - {t: ▽, type: trans}
+  - '&less_than_minus'
   - '&exclamatory_and_equal'
   - {t: ▽, type: trans}
   - ''
