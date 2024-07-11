@@ -98,24 +98,24 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
   - Alt+Sft+ 1
   - Ctl+ ␣
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - ''
   - ''
   - ''
