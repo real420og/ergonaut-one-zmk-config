@@ -16,7 +16,7 @@ layers:
   - {t: A, h: LEFT ALT}
   - {t: S, h: Ctrl}
   - {t: D, h: LEFT COMMAND}
-  - {t: F, h: '&mt LEFT_SHIFT'}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
