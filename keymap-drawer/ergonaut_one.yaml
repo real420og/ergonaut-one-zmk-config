@@ -23,7 +23,7 @@ layers:
   - {t: K, h: RIGHT COMMAND}
   - {t: L, h: Ctrl}
   - {t: ;, h: RIGHT ALT}
-  - {t: '''', h: Ctrl}
+  - ''''
   - Boot
   - Z
   - X
@@ -195,7 +195,7 @@ layers:
   - '#'
   - $
   - '%'
-  - ''
+  - '"'
   - ''
   - ''
   - ''
@@ -207,13 +207,13 @@ layers:
   - '*'
   - (
   - )
-  - ''
+  - ':'
   - {type: held}
   - ''
   - adjust
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   '5':
   - ''
   - ''
