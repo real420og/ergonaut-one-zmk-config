@@ -173,10 +173,10 @@ layers:
   - {t: ▽, type: trans}
   signs:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&less_greater'
+  - '&less_equal'
+  - '&greater_equal'
+  - '&colon_double'
   - ''
   - '-'
   - +
@@ -184,12 +184,12 @@ layers:
   - _
   - '|'
   - \
-  - ''
   - '&minus_greater_than'
   - '&less_than_minus'
   - '&exclamatory_and_equal'
   - '&equal_arrow'
   - '&equals_colon'
+  - '&pipe_double'
   - '!'
   - '@'
   - '#'
@@ -211,7 +211,7 @@ layers:
   - {type: held}
   - ''
   - adjust
-  - {t: ▽, type: trans}
+  - '&curly_brackets_double'
   - '{'
   - '}'
   '5':
