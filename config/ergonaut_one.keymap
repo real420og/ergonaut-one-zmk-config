@@ -78,6 +78,41 @@
             bindings = <&kp COLON &kp EQUAL>;
             label = "EQUALS_COLON";
         };
+
+        less_greater: less_greater {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp GT &kp LEFT_ARROW>;
+            label = "LESS_GREATER";
+        };
+
+        less_equal: less_equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp EQUAL>;
+            label = "LESS_EQUAL";
+        };
+
+        greater_equal: greater_equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GT &kp EQUAL>;
+            label = "GREATER_EQUAL";
+        };
+
+        colon_double: colon_double {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp COLON>;
+            label = "COLON_DOUBLE";
+        };
+
+        pipe_double: pipe_double {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PIPE &kp PIPE &kp LEFT_ARROW>;
+            label = "PIPE_DOUBLE";
+        };
     };
 
     behaviors {
