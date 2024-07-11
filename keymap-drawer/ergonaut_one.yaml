@@ -122,9 +122,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: MUTE, type: held}
   - {t: ▽, type: trans}
   - Alt+Ctl+Gui+ LEFT ARROW
   - Alt+Ctl+Gui+ RIGHT ARROW
