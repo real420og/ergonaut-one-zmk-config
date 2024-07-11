@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - ''
+  - '5'
   - BACKSPACE
   - {t: A, h: LEFT ALT}
   - {t: S, h: Ctrl}
@@ -214,3 +214,46 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '5':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Gui+ ↹, type: held}
+  - ''
+  - Gui+Sft+Alt+ A
+  - Gui+Alt+Sft+ P
+  - Gui+Alt+Sft+ D
+  - ''
+  - Gui+Alt+Sft+ G
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+Alt+Sft+ Z
+  - Sft+Alt+Gui+ 2
+  - Gui+Alt+Sft+ 1
+  - ''
+  - Gui+Alt+Sft+ 3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
