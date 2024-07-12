@@ -40,8 +40,8 @@ layers:
   - {t: '`', h: numbers}
   - {t: ESCAPE, h: arrows}
   - {t: ␣, h: arrows}
-  - {t: '[', h: arrows}
-  - {t: ']', h: arrows}
+  - '['
+  - ']'
   adjust:
   - Boot
   - Reset
