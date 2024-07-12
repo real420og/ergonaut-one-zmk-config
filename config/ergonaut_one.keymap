@@ -243,7 +243,7 @@
 
         arrows {
             bindings = <
-&none   &none   &none   &none              &none            &none       &kp LA(BSLH)       &kp LA(R)                   &kp LA(L)                    &kp LA(R)        &kp LA(LEFT_ARROW)    &kp LA(RIGHT_ARROW)
+&none   &none   &none   &none              &none            &none       &kp LA(BSLH)       &kp LA(R)                   &kp LA(L)                    &kp LA(S)        &kp LA(LEFT_ARROW)    &kp LA(RIGHT_ARROW)
 &kp F1  &kp F2  &kp F3  &kp F4             &kp F5           &kp F6      &kp LEFT_ARROW     &kp DOWN_ARROW              &kp UP_ARROW                 &kp RIGHT_ARROW  &kp LA(LS(NUMBER_1))  &kp LC(SPACE)
 &kp F7  &kp F8  &kp F9  &kp F10            &kp F11          &kp F12     &kp LS(LC(EQUAL))  &kp LC(MINUS)               &kp LS(LC(MINUS))            &none            &none                 &kp LS(LC(P))
                         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  &trans             &kp LA(LC(LG(LEFT_ARROW)))  &kp LA(LC(LG(RIGHT_ARROW)))
