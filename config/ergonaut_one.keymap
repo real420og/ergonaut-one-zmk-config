@@ -225,7 +225,7 @@
 
         ctrl+space {
             bindings = <&hml RS(RIGHT_COMMAND) LC(SPACE)>;
-            key-positions = <31 32>;
+            key-positions = <19 20>;
             layers = <0>;
         };
     };
