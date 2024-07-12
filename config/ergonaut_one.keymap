@@ -228,11 +228,6 @@
             key-positions = <19 20>;
             layers = <0>;
         };
-
-        tab {
-            bindings = <&hml LS(LEFT_COMMAND) TAB>;
-            key-positions = <15 16>;
-        };
     };
 
     keymap {
