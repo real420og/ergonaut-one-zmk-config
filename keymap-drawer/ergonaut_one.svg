@@ -322,11 +322,9 @@ text.label, text.footer { stroke: black; }
 <text x="0" y="0" class="key tap">]</text>
 </g>
 <g class="combo combopos-0">
-<path d="M553,214 l-46,7" class="combo"/>
-<path d="M553,214 l44,-7" class="combo"/>
-<rect rx="6" ry="6" x="539" y="201" width="28" height="26" class="combo"/>
-<text x="553" y="214" class="combo tap">
-<tspan x="553" dy="-0.6em">Ctl+</tspan><tspan x="553" dy="1.2em">␣</tspan>
+<rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
+<text x="616" y="88" class="combo tap">
+<tspan x="616" dy="-0.6em">Ctl+</tspan><tspan x="616" dy="1.2em">␣</tspan>
 </text>
 </g>
 </g>

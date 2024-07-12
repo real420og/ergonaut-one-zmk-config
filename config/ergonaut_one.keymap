@@ -225,7 +225,7 @@
 
         ctrl+space {
             bindings = <&kp LC(SPACE)>;
-            key-positions = <39 40 41>;
+            key-positions = <20 19>;
             layers = <0>;
         };
     };
