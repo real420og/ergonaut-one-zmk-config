@@ -119,15 +119,15 @@ layers:
   - Sft+Ctl+ =
   - Ctl+ -
   - Sft+Ctl+ -
-  - ''
-  - ''
-  - Sft+Ctl+ P
+  - Alt+Ctl+Gui+ LEFT ARROW
+  - Alt+Ctl+Gui+ RIGHT ARROW
+  - Sft+Gui+ P
   - VOLUME DOWN
   - VOLUME UP
   - {t: MUTE, type: held}
   - {t: ▽, type: trans}
-  - Alt+Ctl+Gui+ LEFT ARROW
-  - Alt+Ctl+Gui+ RIGHT ARROW
+  - ''
+  - ''
   numbers:
   - ''
   - ''
@@ -257,3 +257,7 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [39, 40, 41]
+  k: Ctl+ ␣
+  l: [default]
