@@ -37,8 +37,8 @@ layers:
   - ENTER
   - /
   - {t: F16, h: signs}
-  - {t: '`', h: numbers}
-  - {t: ESCAPE, h: arrows}
+  - {t: Esc, h: numbers}
+  - {t: '`', h: arrows}
   - {t: ␣, h: arrows}
   - '['
   - ']'
