@@ -261,3 +261,5 @@ combos:
 - p: [19, 20]
   k: {t: Ctl+ ␣, h: Sft+ RIGHT COMMAND}
   l: [default]
+- p: [15, 16]
+  k: {t: ↹, h: Sft+ LEFT COMMAND}
