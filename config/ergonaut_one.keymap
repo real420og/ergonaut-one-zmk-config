@@ -224,7 +224,7 @@
         compatible = "zmk,combos";
 
         ctrl+space {
-            bindings = <&kp LC(SPACE)>;
+            bindings = <&hml RS(RIGHT_COMMAND) LC(SPACE)>;
             key-positions = <31 32>;
             layers = <0>;
         };

@@ -259,5 +259,5 @@ layers:
   - ''
 combos:
 - p: [31, 32]
-  k: Ctl+ ␣
+  k: {t: Ctl+ ␣, h: Sft+ RIGHT COMMAND}
   l: [default]
