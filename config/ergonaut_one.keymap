@@ -239,11 +239,13 @@
         yank {
             bindings = <&vimCopyBuff>;
             key-positions = <4 5>;
+            layers = <0>;
         };
 
         vim_put {
             bindings = <&vimput>;
             key-positions = <6 7>;
+            layers = <0>;
         };
     };
 

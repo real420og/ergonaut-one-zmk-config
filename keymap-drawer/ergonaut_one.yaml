@@ -263,5 +263,7 @@ combos:
   l: [default]
 - p: [4, 5]
   k: '&vimCopyBuff'
+  l: [default]
 - p: [6, 7]
   k: '&vimput'
+  l: [default]
