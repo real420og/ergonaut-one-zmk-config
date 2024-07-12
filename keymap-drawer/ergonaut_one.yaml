@@ -261,3 +261,7 @@ combos:
 - p: [19, 20]
   k: {t: Ctl+ ␣, h: Sft+ RIGHT COMMAND}
   l: [default]
+- p: [4, 5]
+  k: '&vimCopyBuff'
+- p: [6, 7]
+  k: '&vimput'

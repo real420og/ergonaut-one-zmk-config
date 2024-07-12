@@ -120,6 +120,13 @@
             bindings = <&kp LEFT_BRACE &kp RBRC &kp LEFT_ARROW>;
             label = "CURLY_BRACKETS_DOUBLE";
         };
+
+        vimput: vimput {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DQT &kp N0 &kp P>;
+            label = "VIMPUT";
+        };
     };
 
     behaviors {
@@ -227,6 +234,16 @@
             bindings = <&hml RS(RIGHT_COMMAND) LC(SPACE)>;
             key-positions = <19 20>;
             layers = <0>;
+        };
+
+        yank {
+            bindings = <&vimCopyBuff>;
+            key-positions = <4 5>;
+        };
+
+        vim_put {
+            bindings = <&vimput>;
+            key-positions = <6 7>;
         };
     };
 
