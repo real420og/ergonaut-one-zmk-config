@@ -34,8 +34,8 @@ layers:
   - M
   - ','
   - .
-  - /
   - ENTER
+  - /
   - {t: F16, h: signs}
   - {t: '`', h: numbers}
   - {t: ESCAPE, h: arrows}
