@@ -180,6 +180,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             hold-trigger-on-release;
+            hold-while-undecided;
         };
 
         layer7_a: layer7_a {
