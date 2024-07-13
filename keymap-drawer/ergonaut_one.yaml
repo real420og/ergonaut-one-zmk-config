@@ -36,7 +36,7 @@ layers:
   - .
   - ENTER
   - /
-  - {t: '`', h: arrows}
+  - {t: '`', h: '6'}
   - {t: F16, h: signs}
   - {t: Esc, h: numbers}
   - {t: ␣, h: arrows}
@@ -122,10 +122,10 @@ layers:
   - Alt+Ctl+Gui+ LEFT ARROW
   - Alt+Ctl+Gui+ RIGHT ARROW
   - Sft+Gui+ P
-  - {t: VOLUME DOWN, type: held}
+  - VOLUME DOWN
   - VOLUME UP
   - MUTE
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   numbers:
@@ -254,6 +254,49 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  '6':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - adjust
   - ''
   - ''
   - ''
