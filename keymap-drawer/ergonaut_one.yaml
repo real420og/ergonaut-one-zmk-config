@@ -36,9 +36,9 @@ layers:
   - .
   - ENTER
   - /
+  - {t: '`', h: arrows}
   - {t: F16, h: signs}
   - {t: Esc, h: numbers}
-  - {t: '`', h: arrows}
   - {t: ␣, h: arrows}
   - '['
   - ']'
@@ -122,9 +122,9 @@ layers:
   - Alt+Ctl+Gui+ LEFT ARROW
   - Alt+Ctl+Gui+ RIGHT ARROW
   - Sft+Gui+ P
-  - VOLUME DOWN
+  - {t: VOLUME DOWN, type: held}
   - VOLUME UP
-  - {t: MUTE, type: held}
+  - MUTE
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -166,8 +166,8 @@ layers:
   - '0'
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -208,8 +208,8 @@ layers:
   - (
   - )
   - ':'
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
   - adjust
   - '&curly_brackets_double'
   - '{'
