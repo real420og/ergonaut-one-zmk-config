@@ -247,7 +247,7 @@
             key-positions = <6 7>;
             layers = <0>;
             timeout-ms = <0>;
-            require-prior-idle-ms = <(-1)>;
+            require-prior-idle-ms = <0>;
         };
     };
 
