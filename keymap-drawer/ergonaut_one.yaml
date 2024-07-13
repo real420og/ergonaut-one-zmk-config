@@ -7,7 +7,7 @@ layers:
   - R
   - T
   - Y
-  - U
+  - {t: U, h: Ctl+ ^}
   - I
   - O
   - P
