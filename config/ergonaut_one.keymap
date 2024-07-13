@@ -127,6 +127,19 @@
             bindings = <&kp DQT &kp N0 &kp P>;
             label = "VIMPUT";
         };
+
+        new_macro2xxx: new_macro2xxx {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LC(CARET)>,
+                <&macro_press>,
+                <&macro_pause_for_release>,
+                <&macro_release>;
+
+            label = "NEW_MACRO2XXX";
+        };
     };
 
     behaviors {
@@ -239,7 +252,7 @@
         kpkp: kpkp {
             compatible = "zmk,behavior-hold-tap";
             label = "KPKP";
-            bindings = <&kp>, <&kp>;
+            bindings = <&new_macro2xxx>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;

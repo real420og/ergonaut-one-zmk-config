@@ -7,7 +7,7 @@ layers:
   - R
   - T
   - Y
-  - {t: U, h: Ctl+ ^}
+  - {t: U, h: '&new_macro2xxx LC(CARET)'}
   - I
   - O
   - P
