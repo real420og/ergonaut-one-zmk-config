@@ -262,11 +262,19 @@
         lt_hold_prefer_release2: lt_hold_prefer_release2 {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_HOLD_PREFER_RELEASE2";
-            bindings = <&mo>, <&sl>;
+            bindings = <&mo>, <&sl1000>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             hold-trigger-on-release;
+        };
+
+        sl1000: sl1000 {
+            compatible = "zmk,behavior-sticky-key";
+            label = "SL1000";
+            bindings = <&mo>;
+            #binding-cells = <1>;
+            release-after-ms = <1000>;
         };
     };
 
