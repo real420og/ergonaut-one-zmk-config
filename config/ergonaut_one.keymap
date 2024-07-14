@@ -323,6 +323,20 @@
             timeout-ms = <100>;
             layers = <0>;
         };
+
+        questing {
+            bindings = <&kp LS(SLASH)>;
+            key-positions = <16 35>;
+            timeout-ms = <100>;
+            layers = <0>;
+        };
+
+        left_brace {
+            bindings = <&kp LS(LEFT_BRACKET)>;
+            key-positions = <16 40>;
+            timeout-ms = <100>;
+            layers = <0>;
+        };
     };
 
     keymap {
