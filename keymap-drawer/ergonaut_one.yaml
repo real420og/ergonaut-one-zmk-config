@@ -310,3 +310,8 @@ combos:
 - p: [6, 7]
   k: '&vimput'
   l: [default]
+- p: [16, 17]
+  k: F16
+  l: [default]
+- p: [28, 29]
+  k: Esc
