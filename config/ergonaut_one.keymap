@@ -291,12 +291,14 @@
             bindings = <&vimCopyBuff>;
             key-positions = <4 5>;
             layers = <0>;
+            timeout-ms = <20>;
         };
 
         vim_put {
             bindings = <&vimput>;
             key-positions = <6 7>;
             layers = <0>;
+            timeout-ms = <20>;
         };
 
         switch_lang {
@@ -310,6 +312,7 @@
             bindings = <&kp ESC>;
             key-positions = <28 29>;
             layers = <0>;
+            timeout-ms = <20>;
         };
 
         colon {
