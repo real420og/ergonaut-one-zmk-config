@@ -327,3 +327,6 @@ combos:
 - p: [16, 40]
   k: Sft+ [
   l: [default]
+- p: [16, 41]
+  k: Sft+ ]
+  l: [default]
