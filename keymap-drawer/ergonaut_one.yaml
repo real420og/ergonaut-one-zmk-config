@@ -315,6 +315,7 @@ combos:
   l: [default]
 - p: [28, 29]
   k: Esc
+  l: [default]
 - p: [16, 22]
   k: Sft+ ;
   l: [default]

@@ -561,10 +561,6 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
-<text x="280" y="150" class="combo tap">Esc</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-arrows">
@@ -770,10 +766,6 @@ text.label, text.footer { stroke: black; }
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
-<text x="280" y="150" class="combo tap">Esc</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 992)" class="layer-numbers">
@@ -923,10 +915,6 @@ text.label, text.footer { stroke: black; }
 <g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
-<text x="280" y="150" class="combo tap">Esc</text>
 </g>
 </g>
 </g>
@@ -1092,10 +1080,6 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">}</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
-<text x="280" y="150" class="combo tap">Esc</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1653)" class="layer-5">
@@ -1254,10 +1238,6 @@ text.label, text.footer { stroke: black; }
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
-<text x="280" y="150" class="combo tap">Esc</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1984)" class="layer-6">
@@ -1389,10 +1369,6 @@ text.label, text.footer { stroke: black; }
 </g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
-<text x="280" y="150" class="combo tap">Esc</text>
 </g>
 </g>
 </g>
