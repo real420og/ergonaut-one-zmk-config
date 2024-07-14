@@ -316,6 +316,13 @@
             layers = <0>;
             timeout-ms = <100>;
         };
+
+        quote {
+            bindings = <&kp LS(SINGLE_QUOTE)>;
+            key-positions = <16 23>;
+            timeout-ms = <100>;
+            layers = <0>;
+        };
     };
 
     keymap {
