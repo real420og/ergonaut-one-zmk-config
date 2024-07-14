@@ -7,7 +7,7 @@ layers:
   - R
   - T
   - Y
-  - {t: U, h: '&vim_ctrl_caret LC(CARET)'}
+  - U
   - I
   - O
   - P
@@ -30,7 +30,7 @@ layers:
   - C
   - V
   - B
-  - N
+  - {t: N, h: '&vim_ctrl_caret'}
   - M
   - ','
   - .
