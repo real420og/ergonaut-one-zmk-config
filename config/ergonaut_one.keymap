@@ -313,6 +313,8 @@
         colon {
             bindings = <&kp LS(SEMICOLON)>;
             key-positions = <16 22>;
+            layers = <0>;
+            timeout-ms = <100>;
         };
     };
 

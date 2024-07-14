@@ -533,14 +533,6 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
 <text x="280" y="150" class="combo tap">Esc</text>
 </g>
-<g class="combo combopos-1">
-<path d="M504,98 l-233,-6" class="combo"/>
-<path d="M504,98 l233,6" class="combo"/>
-<rect rx="6" ry="6" x="490" y="85" width="28" height="26" class="combo"/>
-<text x="504" y="98" class="combo tap">
-<tspan x="504" dy="-0.6em">Sft+</tspan><tspan x="504" dy="1.2em">;</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-arrows">
@@ -750,14 +742,6 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
 <text x="280" y="150" class="combo tap">Esc</text>
 </g>
-<g class="combo combopos-1">
-<path d="M504,98 l-233,-6" class="combo"/>
-<path d="M504,98 l233,6" class="combo"/>
-<rect rx="6" ry="6" x="490" y="85" width="28" height="26" class="combo"/>
-<text x="504" y="98" class="combo tap">
-<tspan x="504" dy="-0.6em">Sft+</tspan><tspan x="504" dy="1.2em">;</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 992)" class="layer-numbers">
@@ -911,14 +895,6 @@ text.label, text.footer { stroke: black; }
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
 <text x="280" y="150" class="combo tap">Esc</text>
-</g>
-<g class="combo combopos-1">
-<path d="M504,98 l-233,-6" class="combo"/>
-<path d="M504,98 l233,6" class="combo"/>
-<rect rx="6" ry="6" x="490" y="85" width="28" height="26" class="combo"/>
-<text x="504" y="98" class="combo tap">
-<tspan x="504" dy="-0.6em">Sft+</tspan><tspan x="504" dy="1.2em">;</tspan>
-</text>
 </g>
 </g>
 </g>
@@ -1088,14 +1064,6 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
 <text x="280" y="150" class="combo tap">Esc</text>
 </g>
-<g class="combo combopos-1">
-<path d="M504,98 l-233,-6" class="combo"/>
-<path d="M504,98 l233,6" class="combo"/>
-<rect rx="6" ry="6" x="490" y="85" width="28" height="26" class="combo"/>
-<text x="504" y="98" class="combo tap">
-<tspan x="504" dy="-0.6em">Sft+</tspan><tspan x="504" dy="1.2em">;</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1653)" class="layer-5">
@@ -1258,14 +1226,6 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
 <text x="280" y="150" class="combo tap">Esc</text>
 </g>
-<g class="combo combopos-1">
-<path d="M504,98 l-233,-6" class="combo"/>
-<path d="M504,98 l233,6" class="combo"/>
-<rect rx="6" ry="6" x="490" y="85" width="28" height="26" class="combo"/>
-<text x="504" y="98" class="combo tap">
-<tspan x="504" dy="-0.6em">Sft+</tspan><tspan x="504" dy="1.2em">;</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1984)" class="layer-6">
@@ -1401,14 +1361,6 @@ text.label, text.footer { stroke: black; }
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
 <text x="280" y="150" class="combo tap">Esc</text>
-</g>
-<g class="combo combopos-1">
-<path d="M504,98 l-233,-6" class="combo"/>
-<path d="M504,98 l233,6" class="combo"/>
-<rect rx="6" ry="6" x="490" y="85" width="28" height="26" class="combo"/>
-<text x="504" y="98" class="combo tap">
-<tspan x="504" dy="-0.6em">Sft+</tspan><tspan x="504" dy="1.2em">;</tspan>
-</text>
 </g>
 </g>
 </g>

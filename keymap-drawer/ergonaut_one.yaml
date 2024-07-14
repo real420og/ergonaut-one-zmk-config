@@ -317,3 +317,4 @@ combos:
   k: Esc
 - p: [16, 22]
   k: Sft+ ;
+  l: [default]
