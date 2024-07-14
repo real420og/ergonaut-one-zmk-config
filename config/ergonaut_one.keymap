@@ -309,6 +309,11 @@
             bindings = <&kp ESC>;
             key-positions = <28 29>;
         };
+
+        colon {
+            bindings = <&kp LS(SEMICOLON)>;
+            key-positions = <16 22>;
+        };
     };
 
     keymap {
