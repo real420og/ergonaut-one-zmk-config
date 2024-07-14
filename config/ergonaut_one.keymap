@@ -349,6 +349,16 @@
             timeout-ms = <100>;
             layers = <0>;
         };
+
+        lang2 {
+            bindings = <&kp F16>;
+            key-positions = <36 28>;
+        };
+
+        esc2 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <37 29>;
+        };
     };
 
     keymap {

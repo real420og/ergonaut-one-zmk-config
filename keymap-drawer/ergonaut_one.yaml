@@ -331,3 +331,7 @@ combos:
 - p: [16, 41]
   k: Sft+ ]
   l: [default]
+- p: [36, 28]
+  k: F16
+- p: [37, 29]
+  k: ESCAPE
