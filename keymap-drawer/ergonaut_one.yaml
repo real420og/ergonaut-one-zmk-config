@@ -333,5 +333,7 @@ combos:
   l: [default]
 - p: [36, 28]
   k: F16
+  l: [default]
 - p: [37, 29]
   k: ESCAPE
+  l: [default]
