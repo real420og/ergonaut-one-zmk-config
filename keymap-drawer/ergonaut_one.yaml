@@ -86,9 +86,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   arrows:
-  - ''
-  - ''
-  - ''
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - ''
   - ''
   - ''
@@ -122,9 +122,9 @@ layers:
   - Alt+Ctl+Gui+ LEFT ARROW
   - Alt+Ctl+Gui+ RIGHT ARROW
   - Sft+Gui+ P
-  - VOLUME DOWN
-  - VOLUME UP
-  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
   - ''
