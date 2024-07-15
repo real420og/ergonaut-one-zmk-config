@@ -86,36 +86,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   arrows:
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
-  - ''
-  - ''
-  - ''
-  - Alt+ \
-  - Alt+ R
-  - Alt+ L
-  - Alt+ S
-  - Alt+ LEFT ARROW
-  - Alt+ RIGHT ARROW
   - F1
   - F2
   - F3
   - F4
   - F5
   - F6
-  - LEFT ARROW
-  - DOWN ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - Alt+Sft+ 1
-  - ''
+  - Alt+ \
+  - Alt+ R
+  - Alt+ L
+  - Alt+ S
+  - Alt+ LEFT ARROW
+  - Alt+ RIGHT ARROW
   - F7
   - F8
   - F9
   - F10
   - F11
   - F12
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - Alt+Sft+ 1
+  - ''
+  - Sft+Alt+ 1
+  - ''
+  - ''
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - Sft+Ctl+ =
   - Ctl+ -
   - Sft+Ctl+ -
