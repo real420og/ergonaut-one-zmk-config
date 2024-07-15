@@ -201,7 +201,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - ESCAPE
   - ^
   - '&'
   - '*'
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - adjust
-  - '&curly_brackets_double'
   - ''
+  - '&curly_brackets_double'
   - ''
   '5':
   - ''
@@ -286,7 +286,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - F16
   - ''
   - ''
   - ''
