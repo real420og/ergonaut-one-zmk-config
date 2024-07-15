@@ -396,7 +396,7 @@
             bindings = <
 &kp TAB        &kp Q            &kp W         &kp E                            &kp R                         &kp_and_vim_ctrl_caret 0 T    &kp Y                           &kp U               &kp I                 &kp O         &kp P                     &sl 5
 &kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D              &hml LEFT_SHIFT F             &kp G                         &kp H                           &hml RIGHT_SHIFT J  &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &kp SQT
-&none          &kp Z            &kp X         &kp C                            &kp V                         &kp B                         &kp N                           &kp M               &kp COMMA             &kp DOT       &kp ENTER                 &kp SLASH
+&kp F16        &kp Z            &kp X         &kp C                            &kp V                         &kp B                         &kp N                           &kp M               &kp COMMA             &kp DOT       &kp ENTER                 &kp SLASH
                                               &lt_hold_prefer_release 6 GRAVE  &lt_hold_prefer_release2 4 4  &lt_hold_prefer_release2 3 3  &lt_tap_prefer_release 2 SPACE  &kp LBKT            &kp RBKT
             >;
         };
