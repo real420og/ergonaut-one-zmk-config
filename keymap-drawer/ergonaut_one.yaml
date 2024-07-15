@@ -113,9 +113,9 @@ layers:
   - Sft+Alt+ 1
   - ''
   - ''
-  - MUTE
   - VOLUME DOWN
   - VOLUME UP
+  - MUTE
   - Sft+Ctl+ =
   - Ctl+ -
   - Sft+Ctl+ -
