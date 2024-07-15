@@ -185,10 +185,10 @@ layers:
   - '|'
   - \
   - '&minus_greater_than'
-  - '&less_than_minus'
-  - '&exclamatory_and_equal'
-  - '&equal_arrow'
-  - '&equals_colon'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&pipe_double'
   - '!'
   - '@'
@@ -197,10 +197,10 @@ layers:
   - '%'
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&less_than_minus'
+  - '&exclamatory_and_equal'
+  - '&equal_arrow'
+  - '&equals_colon'
   - ESCAPE
   - ^
   - '&'
