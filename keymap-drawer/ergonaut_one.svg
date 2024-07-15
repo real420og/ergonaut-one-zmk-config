@@ -393,6 +393,38 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="283" y="171" width="28" height="26" class="combo"/>
 <text x="297" y="184" class="combo tap">ESCAPE</text>
 </g>
+<g class="combo combopos-12">
+<path d="M510,161 l-16,45" class="combo"/>
+<path d="M510,161 l16,-45" class="combo"/>
+<rect rx="6" ry="6" x="496" y="148" width="28" height="26" class="combo"/>
+<text x="510" y="161" class="combo tap">
+<tspan x="510" dy="-0.6em">LEFT</tspan><tspan x="510" dy="1.2em">ARROW</tspan>
+</text>
+</g>
+<g class="combo combopos-13">
+<path d="M538,158 l-38,52" class="combo"/>
+<path d="M538,158 l38,-52" class="combo"/>
+<rect rx="6" ry="6" x="524" y="145" width="28" height="26" class="combo"/>
+<text x="538" y="158" class="combo tap">
+<tspan x="538" dy="-0.6em">DOWN</tspan><tspan x="538" dy="1.2em">ARROW</tspan>
+</text>
+</g>
+<g class="combo combopos-14">
+<path d="M566,154 l-64,58" class="combo"/>
+<path d="M566,154 l64,-58" class="combo"/>
+<rect rx="6" ry="6" x="552" y="141" width="28" height="26" class="combo"/>
+<text x="566" y="154" class="combo tap">
+<tspan x="566" dy="-0.6em">UP</tspan><tspan x="566" dy="1.2em">ARROW</tspan>
+</text>
+</g>
+<g class="combo combopos-15">
+<path d="M594,158 l-90,57" class="combo"/>
+<path d="M594,158 l90,-57" class="combo"/>
+<rect rx="6" ry="6" x="580" y="145" width="28" height="26" class="combo"/>
+<text x="594" y="158" class="combo tap">
+<tspan x="594" dy="-0.6em">RIGHT</tspan><tspan x="594" dy="1.2em">ARROW</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-adjust">

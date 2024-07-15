@@ -337,3 +337,15 @@ combos:
 - p: [37, 29]
   k: ESCAPE
   l: [default]
+- p: [39, 18]
+  k: LEFT ARROW
+  l: [default]
+- p: [39, 19]
+  k: DOWN ARROW
+  l: [default]
+- p: [39, 20]
+  k: UP ARROW
+  l: [default]
+- p: [39, 21]
+  k: RIGHT ARROW
+  l: [default]

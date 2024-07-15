@@ -363,6 +363,30 @@
             timeout-ms = <200>;
             layers = <0>;
         };
+
+        left_arrow {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <39 18>;
+            layers = <0>;
+        };
+
+        down_arrow {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <39 19>;
+            layers = <0>;
+        };
+
+        up_arrow {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <39 20>;
+            layers = <0>;
+        };
+
+        right_arrow {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <39 21>;
+            layers = <0>;
+        };
     };
 
     keymap {
