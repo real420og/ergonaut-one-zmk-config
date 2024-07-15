@@ -353,14 +353,14 @@
         lang2 {
             bindings = <&kp F16>;
             key-positions = <36 28>;
-            timeout-ms = <100>;
+            timeout-ms = <200>;
             layers = <0>;
         };
 
         esc2 {
             bindings = <&kp ESCAPE>;
             key-positions = <37 29>;
-            timeout-ms = <100>;
+            timeout-ms = <200>;
             layers = <0>;
         };
     };
