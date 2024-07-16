@@ -309,8 +309,8 @@
         };
 
         escape {
-            bindings = <&kp ESC>;
-            key-positions = <28 29>;
+            bindings = <&hml LG(LEFT_SHIFT) ESC>;
+            key-positions = <15 16>;
             layers = <0>;
             timeout-ms = <20>;
         };

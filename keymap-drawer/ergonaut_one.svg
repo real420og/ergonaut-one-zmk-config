@@ -343,8 +343,9 @@ text.label, text.footer { stroke: black; }
 <text x="280" y="94" class="combo tap">F16</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="266" y="138" width="28" height="26" class="combo"/>
-<text x="280" y="150" class="combo tap">Esc</text>
+<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
+<text x="224" y="88" class="combo tap">Esc</text>
+<text x="224" y="98" class="combo hold"><tspan style="font-size: 64%">Gui+ LEFT …</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M504,98 l-233,-6" class="combo"/>

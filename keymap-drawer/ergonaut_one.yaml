@@ -313,8 +313,8 @@ combos:
 - p: [16, 17]
   k: F16
   l: [default]
-- p: [28, 29]
-  k: Esc
+- p: [15, 16]
+  k: {t: Esc, h: Gui+ LEFT SHIFT}
   l: [default]
 - p: [16, 22]
   k: Sft+ ;
