@@ -350,7 +350,7 @@ combos:
   k: RIGHT ARROW
   l: [default]
 - p: [19, 20]
-  k: {t: Ctl+ ESCAPE, h: Gui+ LEFT SHIFT}
+  k: {t: ESCAPE, h: Gui+ LEFT SHIFT}
   l: [default]
 - p: [18, 19]
   k: F16

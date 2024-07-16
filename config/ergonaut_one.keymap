@@ -310,7 +310,7 @@
         };
 
         escape {
-            bindings = <&hml LG(LEFT_SHIFT) ESCAPE>;
+            bindings = <&mt LG(LEFT_SHIFT) ESCAPE>;
             key-positions = <15 16>;
             layers = <0>;
             timeout-ms = <20>;
@@ -390,7 +390,7 @@
         };
 
         escape3 {
-            bindings = <&hml LG(LEFT_SHIFT) LC(ESCAPE)>;
+            bindings = <&hml LG(LEFT_SHIFT) ESCAPE>;
             key-positions = <19 20>;
             timeout-ms = <20>;
             layers = <0>;
