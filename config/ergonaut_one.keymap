@@ -283,8 +283,9 @@
 
         ctrl+space {
             bindings = <&hml RS(RIGHT_COMMAND) LC(SPACE)>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
             layers = <0>;
+            timeout-ms = <20>;
         };
 
         yank {
@@ -385,6 +386,20 @@
         right_arrow {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <39 21>;
+            layers = <0>;
+        };
+
+        escape3 {
+            bindings = <&hml LG(LEFT_SHIFT) ESC>;
+            key-positions = <19 20>;
+            timeout-ms = <20>;
+            layers = <0>;
+        };
+
+        switch_lang2 {
+            bindings = <&kp F16>;
+            key-positions = <18 19>;
+            timeout-ms = <20>;
             layers = <0>;
         };
     };

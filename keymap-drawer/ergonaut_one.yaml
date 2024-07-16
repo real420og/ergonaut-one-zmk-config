@@ -301,7 +301,7 @@ layers:
   - ''
   - ''
 combos:
-- p: [19, 20]
+- p: [20, 21]
   k: {t: Ctl+ ␣, h: Sft+ RIGHT COMMAND}
   l: [default]
 - p: [4, 5]
@@ -348,4 +348,10 @@ combos:
   l: [default]
 - p: [39, 21]
   k: RIGHT ARROW
+  l: [default]
+- p: [19, 20]
+  k: {t: Esc, h: Gui+ LEFT SHIFT}
+  l: [default]
+- p: [18, 19]
+  k: F16
   l: [default]
