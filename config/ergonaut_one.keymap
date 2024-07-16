@@ -282,7 +282,7 @@
         compatible = "zmk,combos";
 
         ctrl+space {
-            bindings = <&hml RS(RIGHT_COMMAND) LC(SPACE)>;
+            bindings = <&hml LG(RCTRL) LC(SPACE)>;
             key-positions = <20 21>;
             layers = <0>;
             timeout-ms = <20>;

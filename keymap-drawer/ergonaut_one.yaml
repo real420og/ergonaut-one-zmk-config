@@ -302,7 +302,7 @@ layers:
   - ''
 combos:
 - p: [20, 21]
-  k: {t: Ctl+ ␣, h: Sft+ RIGHT COMMAND}
+  k: {t: Ctl+ ␣, h: Gui+ Ctrl}
   l: [default]
 - p: [4, 5]
   k: '&vimCopyBuff'
