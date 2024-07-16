@@ -201,7 +201,7 @@ layers:
   - '&exclamatory_and_equal'
   - '&equal_arrow'
   - '&equals_colon'
-  - ESCAPE
+  - ''
   - ^
   - '&'
   - '*'
@@ -286,7 +286,7 @@ layers:
   - ''
   - ''
   - ''
-  - F16
+  - ''
   - ''
   - ''
   - ''
