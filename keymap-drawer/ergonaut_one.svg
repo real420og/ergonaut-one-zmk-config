@@ -344,7 +344,7 @@ text.label, text.footer { stroke: black; }
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap">Esc</text>
+<text x="224" y="88" class="combo tap">ESCAPE</text>
 <text x="224" y="98" class="combo hold"><tspan style="font-size: 64%">Gui+ LEFT …</tspan></text>
 </g>
 <g class="combo combopos-5">
@@ -429,7 +429,9 @@ text.label, text.footer { stroke: black; }
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="602" y="74" width="28" height="26" class="combo"/>
-<text x="616" y="88" class="combo tap">Esc</text>
+<text x="616" y="88" class="combo tap">
+<tspan x="616" dy="-0.6em">Ctl+</tspan><tspan x="616" dy="1.2em">ESCAPE</tspan>
+</text>
 <text x="616" y="98" class="combo hold"><tspan style="font-size: 64%">Gui+ LEFT …</tspan></text>
 </g>
 <g class="combo combopos-17">

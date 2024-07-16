@@ -314,7 +314,7 @@ combos:
   k: F16
   l: [default]
 - p: [15, 16]
-  k: {t: Esc, h: Gui+ LEFT SHIFT}
+  k: {t: ESCAPE, h: Gui+ LEFT SHIFT}
   l: [default]
 - p: [16, 22]
   k: Sft+ ;
@@ -350,7 +350,7 @@ combos:
   k: RIGHT ARROW
   l: [default]
 - p: [19, 20]
-  k: {t: Esc, h: Gui+ LEFT SHIFT}
+  k: {t: Ctl+ ESCAPE, h: Gui+ LEFT SHIFT}
   l: [default]
 - p: [18, 19]
   k: F16
