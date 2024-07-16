@@ -285,35 +285,35 @@
             bindings = <&hml LG(RCTRL) LC(SPACE)>;
             key-positions = <20 21>;
             layers = <0>;
-            timeout-ms = <20>;
+            require-prior-idle-ms = <200>;
         };
 
         yank {
             bindings = <&vimCopyBuff>;
             key-positions = <4 5>;
             layers = <0>;
-            timeout-ms = <20>;
+            require-prior-idle-ms = <200>;
         };
 
         vim_put {
             bindings = <&vimput>;
             key-positions = <6 7>;
             layers = <0>;
-            timeout-ms = <20>;
+            require-prior-idle-ms = <200>;
         };
 
         switch_lang {
             bindings = <&kp F16>;
             key-positions = <16 17>;
             layers = <0>;
-            timeout-ms = <20>;
+            require-prior-idle-ms = <200>;
         };
 
         escape {
             bindings = <&mt LG(LEFT_SHIFT) ESCAPE>;
             key-positions = <15 16>;
             layers = <0>;
-            timeout-ms = <20>;
+            require-prior-idle-ms = <200>;
         };
 
         colon {
@@ -385,8 +385,8 @@
         switch_lang2 {
             bindings = <&kp F16>;
             key-positions = <18 19>;
-            timeout-ms = <20>;
             layers = <0>;
+            require-prior-idle-ms = <200>;
         };
     };
 
