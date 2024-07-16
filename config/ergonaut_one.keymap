@@ -353,14 +353,14 @@
 
         lang2 {
             bindings = <&kp F16>;
-            key-positions = <36 28>;
+            key-positions = <>;
             timeout-ms = <200>;
             layers = <0>;
         };
 
         esc2 {
             bindings = <&kp ESCAPE>;
-            key-positions = <37 29>;
+            key-positions = <>;
             timeout-ms = <200>;
             layers = <0>;
         };
@@ -390,7 +390,7 @@
         };
 
         escape3 {
-            bindings = <&hml LG(LEFT_SHIFT) ESCAPE>;
+            bindings = <&mt LG(LEFT_SHIFT) ESCAPE>;
             key-positions = <19 20>;
             timeout-ms = <20>;
             layers = <0>;
