@@ -351,20 +351,6 @@
             layers = <0>;
         };
 
-        lang2 {
-            bindings = <&kp F16>;
-            key-positions = <>;
-            timeout-ms = <200>;
-            layers = <0>;
-        };
-
-        esc2 {
-            bindings = <&kp ESCAPE>;
-            key-positions = <>;
-            timeout-ms = <200>;
-            layers = <0>;
-        };
-
         left_arrow {
             bindings = <&kp LEFT_ARROW>;
             key-positions = <39 18>;
