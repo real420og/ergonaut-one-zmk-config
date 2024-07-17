@@ -168,6 +168,20 @@
             bindings = <&kp GRAVE &kp LS(W)>;
             label = "GRAVEW";
         };
+
+        mE: mE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(E)>;
+            label = "ME";
+        };
+
+        graveE: graveE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(E)>;
+            label = "GRAVEE";
+        };
     };
 
     behaviors {
@@ -492,7 +506,7 @@
 
         layer_6 {
             bindings = <
-&none  &graveQ  &graveW  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &graveQ  &graveW  &graveE  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none    &none    &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none    &none    &none  &none  &none  &none  &none  &none  &none  &none  &none
                          &none  &none  &mo 1  &none  &none  &none
@@ -501,7 +515,7 @@
 
         layer_7 {
             bindings = <
-&none  &mQ    &mW    &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &mQ    &mW    &mE  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
                      &none  &none  &none  &none  &none  &none
