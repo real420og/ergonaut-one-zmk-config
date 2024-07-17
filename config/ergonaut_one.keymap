@@ -168,6 +168,118 @@
             bindings = <&kp GRAVE &kp LS(W)>;
             label = "GRAVEW";
         };
+
+        mE: mE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(E)>;
+            label = "ME";
+        };
+
+        graveE: graveE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(E)>;
+            label = "GRAVEE";
+        };
+
+        mR: mR {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(R)>;
+            label = "MR";
+        };
+
+        graveR: graveR {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(R)>;
+            label = "GRAVER";
+        };
+
+        mT: mT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(T)>;
+            label = "MT";
+        };
+
+        graveT: graveT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(T)>;
+            label = "GRAVET";
+        };
+
+        mA: mA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(A)>;
+            label = "MA";
+        };
+
+        graveA: graveA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(A)>;
+            label = "GRAVEA";
+        };
+
+        mS: mS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(S)>;
+            label = "MS";
+        };
+
+        graveS: graveS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(S)>;
+            label = "GRAVES";
+        };
+
+        mD: mD {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(D)>;
+            label = "MD";
+        };
+
+        graveD: graveD {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(D)>;
+            label = "GRAVED";
+        };
+
+        mF: mF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(F)>;
+            label = "MF";
+        };
+
+        graveF: graveF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(F)>;
+            label = "GRAVEF";
+        };
+
+        mG: mG {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(G)>;
+            label = "MG";
+        };
+
+        graveG: graveG {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(G)>;
+            label = "GRAVEG";
+        };
     };
 
     behaviors {
@@ -492,8 +604,8 @@
 
         layer_6 {
             bindings = <
-&none  &graveQ  &graveW  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none    &none    &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &graveQ  &graveW  &graveE  &graveR  &graveT  &none  &none  &none  &none  &none  &none
+&none  &graveA    &graveS    &graveD  &graveF  &graveG  &none  &none  &none  &none  &none  &none
 &none  &none    &none    &none  &none  &none  &none  &none  &none  &none  &none  &none
                          &none  &none  &mo 1  &none  &none  &none
             >;
@@ -501,8 +613,8 @@
 
         layer_7 {
             bindings = <
-&none  &mQ    &mW    &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &mQ    &mW    &mE  &mR  &mT &none  &none  &none  &none  &none  &none
+&none  &mA  &mS  &mD  &mF  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
                      &none  &none  &none  &none  &none  &none
             >;
