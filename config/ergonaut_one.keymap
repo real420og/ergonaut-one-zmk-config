@@ -286,6 +286,7 @@
             key-positions = <20 21>;
             layers = <0>;
             require-prior-idle-ms = <200>;
+            timeout-ms = <200>;
         };
 
         yank {
