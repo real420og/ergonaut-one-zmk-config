@@ -605,16 +605,16 @@
         layer_6 {
             bindings = <
 &none  &graveQ  &graveW  &graveE  &graveR  &graveT  &none  &none  &none  &none  &none  &none
-&none  &graveA    &graveS    &graveD  &graveF  &graveG  &none  &none  &none  &none  &none  &none
-&none  &none    &none    &none  &none  &none  &none  &none  &none  &none  &none  &none
-                         &none  &none  &mo 1  &none  &none  &none
+&none  &graveA  &graveS  &graveD  &graveF  &graveG  &none  &none  &none  &none  &none  &none
+&none  &none    &none    &none    &none    &none    &none  &none  &none  &none  &none  &none
+                         &none    &none    &mo 1    &none  &none  &none
             >;
         };
 
         layer_7 {
             bindings = <
-&none  &mQ    &mW    &mE  &mR  &mT &none  &none  &none  &none  &none  &none
-&none  &mA  &mS  &mD  &mF  &none  &none  &none  &none  &none  &none  &none
+&none  &mQ    &mW    &mE    &mR    &mT    &none  &none  &none  &none  &none  &none
+&none  &mA    &mS    &mD    &mF    &mG    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
                      &none  &none  &none  &none  &none  &none
             >;
