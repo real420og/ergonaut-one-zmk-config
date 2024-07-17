@@ -389,6 +389,13 @@
             layers = <0>;
             require-prior-idle-ms = <200>;
         };
+
+        ctrl_o {
+            bindings = <&kp LC(O)>;
+            key-positions = <21 9>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
+        };
     };
 
     keymap {

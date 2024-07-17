@@ -349,3 +349,6 @@ combos:
 - p: [18, 19]
   k: F16
   l: [default]
+- p: [21, 9]
+  k: Ctl+ O
+  l: [default]
