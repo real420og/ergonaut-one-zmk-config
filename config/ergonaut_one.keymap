@@ -285,7 +285,6 @@
             bindings = <&hml LG(RCTRL) LC(SPACE)>;
             key-positions = <20 21>;
             layers = <0>;
-            require-prior-idle-ms = <200>;
             timeout-ms = <200>;
         };
 
@@ -394,6 +393,13 @@
         ctrl_o {
             bindings = <&kp LC(O)>;
             key-positions = <21 9>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
+        };
+
+        tab {
+            bindings = <&mt LC(LEFT_GUI) TAB>;
+            key-positions = <15 14>;
             require-prior-idle-ms = <200>;
             layers = <0>;
         };

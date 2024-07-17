@@ -352,3 +352,6 @@ combos:
 - p: [21, 9]
   k: Ctl+ O
   l: [default]
+- p: [15, 14]
+  k: {t: ↹, h: Ctl+ LEFT GUI}
+  l: [default]
