@@ -398,6 +398,6 @@ combos:
 - p: [15, 14]
   k: {t: ↹, h: Ctl+ LEFT GUI}
   l: [default]
-- p: [33, 34]
+- p: [33, 32]
   k: ENTER
   l: [default]
