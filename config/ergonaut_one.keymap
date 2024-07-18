@@ -514,6 +514,7 @@
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <39 21>;
             layers = <0>;
+            require-prior-idle-ms = <300>;
         };
 
         escape3 {
