@@ -290,7 +290,7 @@ text.label, text.footer { stroke: black; }
 </g>
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ENTER</text>
+<text x="0" y="0" class="key tap">/</text>
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -439,6 +439,12 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <text x="168" y="88" class="combo tap">↹</text>
 <text x="168" y="98" class="combo hold"><tspan style="font-size: 64%">Ctl+ LEFT …</tspan></text>
+</g>
+<g class="combo combopos-18">
+<rect rx="6" ry="6" x="714" y="141" width="28" height="26" class="combo"/>
+<text x="728" y="154" class="combo tap">
+<tspan x="728" dy="-0.6em">Gui+</tspan><tspan x="728" dy="1.2em">ENTER</tspan>
+</text>
 </g>
 </g>
 </g>

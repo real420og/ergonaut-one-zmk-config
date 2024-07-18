@@ -34,7 +34,7 @@ layers:
   - {t: M, h: '7'}
   - ','
   - .
-  - ENTER
+  - /
   - /
   - {t: '`', h: '6'}
   - {t: signs, h: signs}
@@ -397,4 +397,7 @@ combos:
   l: [default]
 - p: [15, 14]
   k: {t: ↹, h: Ctl+ LEFT GUI}
+  l: [default]
+- p: [33, 34]
+  k: Gui+ ENTER
   l: [default]
