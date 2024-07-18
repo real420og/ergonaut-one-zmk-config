@@ -546,7 +546,7 @@
         };
 
         enter {
-            bindings = <&kp LG(ENTER)>;
+            bindings = <&kp ENTER>;
             key-positions = <33 34>;
             require-prior-idle-ms = <200>;
             layers = <0>;
