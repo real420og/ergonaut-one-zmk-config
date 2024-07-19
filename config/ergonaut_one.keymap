@@ -604,7 +604,7 @@
 &none                &less_greater     &less_equal             &greater_equal  &colon_double  &none         &kp MINUS        &kp PLUS                &kp EQUAL     &kp UNDERSCORE        &kp BACKSLASH          &none
 &minus_greater_than  &trans            &trans                  &trans          &trans         &pipe_double  &kp EXCLAMATION  &kp AT_SIGN             &kp POUND     &kp DOLLAR            &kp PERCENT            &kp PIPE
 &none                &less_than_minus  &exclamatory_and_equal  &equal_arrow    &equals_colon  &none         &kp CARET        &kp AMPERSAND           &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-                                                               &trans          &none          &mo 1         &none            &curly_brackets_double  &none
+                                                               &trans          &none          &none         &none            &curly_brackets_double  &none
             >;
         };
 

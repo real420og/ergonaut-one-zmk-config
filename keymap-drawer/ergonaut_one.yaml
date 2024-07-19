@@ -210,7 +210,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {type: held}
-  - adjust
+  - ''
   - ''
   - '&curly_brackets_double'
   - ''
