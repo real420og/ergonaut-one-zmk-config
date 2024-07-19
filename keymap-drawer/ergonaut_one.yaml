@@ -254,7 +254,7 @@ layers:
   - ''
   - ''
   - ''
-  - Alt+ ↹
+  - Gui+ ↹
   - ''
   - ''
   '6':
@@ -403,3 +403,4 @@ combos:
   l: [default]
 - p: [38, 39]
   k: {t: '5', h: sticky}
+  l: [default]
