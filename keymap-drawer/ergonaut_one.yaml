@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - /
-  - /
+  - ''
   - {t: '`', h: '6'}
   - {t: signs, h: signs}
   - {t: numbers, h: numbers}
@@ -365,7 +365,7 @@ combos:
 - p: [16, 23]
   k: Sft+ '
   l: [default]
-- p: [16, 35]
+- p: [16, 34]
   k: Sft+ /
   l: [default]
 - p: [16, 40]
