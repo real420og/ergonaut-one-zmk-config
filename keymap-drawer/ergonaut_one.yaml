@@ -190,11 +190,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&pipe_double'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - '|'
   - ''
   - '&less_than_minus'
@@ -202,11 +202,11 @@ layers:
   - '&equal_arrow'
   - '&equals_colon'
   - ''
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ''
   - {t: ▽, type: trans}
   - {type: held}
