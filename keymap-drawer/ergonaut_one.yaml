@@ -179,9 +179,9 @@ layers:
   - '&colon_double'
   - ''
   - '-'
-  - +
   - '='
-  - _
+  - ''
+  - ''
   - ''
   - ''
   - '&minus_greater_than'
