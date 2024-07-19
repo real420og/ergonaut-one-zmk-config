@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: '5', h: sticky}
+  - ''
   - BACKSPACE
   - {t: A, h: LEFT ALT}
   - {t: S, h: Ctrl}
@@ -226,7 +226,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Gui+ ↹, type: held}
+  - ''
   - ''
   - Gui+Sft+Alt+ A
   - Gui+Alt+Sft+ P
@@ -253,8 +253,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - Gui+ ↹
+  - {t: Gui+ ↹, type: held}
+  - {t: Gui+ ↹, type: held}
   - ''
   - ''
   '6':
