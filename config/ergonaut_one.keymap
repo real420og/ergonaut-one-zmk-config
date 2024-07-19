@@ -12,7 +12,14 @@
 &mt { quick-tap-ms = <200>; };
 
 / {
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        app_layout {
+            if-layers = <3 2>;
+            then-layer = <5>;
+        };
+    };
 
     macros {
         vimCopyBuff: vimCopyBuff {
