@@ -195,7 +195,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - '|'
+  - \
   - ''
   - '&less_than_minus'
   - '&exclamatory_and_equal'
@@ -207,7 +207,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - \
+  - ''
   - {t: ▽, type: trans}
   - {type: held}
   - ''

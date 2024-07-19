@@ -610,8 +610,8 @@
         signs {
             bindings = <
 &none                &less_greater     &less_equal             &greater_equal  &colon_double  &none         &kp MINUS     &kp EQUAL               &none   &none   &none   &none
-&minus_greater_than  &trans            &trans                  &trans          &trans         &pipe_double  &kp N1        &kp N2                  &kp N3  &kp N4  &kp N5  &kp PIPE
-&none                &less_than_minus  &exclamatory_and_equal  &equal_arrow    &equals_colon  &none         &kp NUMBER_6  &kp N7                  &kp N8  &kp N9  &kp N0  &kp BACKSLASH
+&minus_greater_than  &trans            &trans                  &trans          &trans         &pipe_double  &kp N1        &kp N2                  &kp N3  &kp N4  &kp N5  &kp BACKSLASH
+&none                &less_than_minus  &exclamatory_and_equal  &equal_arrow    &equals_colon  &none         &kp NUMBER_6  &kp N7                  &kp N8  &kp N9  &kp N0  &none
                                                                &trans          &none          &none         &none         &curly_brackets_double  &none
             >;
         };
