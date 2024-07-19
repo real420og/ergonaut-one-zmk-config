@@ -182,7 +182,7 @@ layers:
   - +
   - '='
   - _
-  - \
+  - ''
   - ''
   - '&minus_greater_than'
   - {t: ▽, type: trans}
@@ -207,7 +207,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
+  - \
   - {t: ▽, type: trans}
   - {type: held}
   - ''
