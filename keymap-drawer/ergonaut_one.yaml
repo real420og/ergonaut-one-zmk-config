@@ -1,6 +1,6 @@
 layers:
   default:
-  - ↹
+  - ''
   - Q
   - W
   - E
@@ -38,7 +38,7 @@ layers:
   - ''
   - {t: '`', h: '6'}
   - {t: signs, h: signs}
-  - {t: numbers, h: numbers}
+  - ↹
   - {t: ␣, h: arrows}
   - '['
   - ']'
@@ -167,7 +167,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
