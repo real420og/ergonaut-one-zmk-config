@@ -86,24 +86,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   arrows:
+  - ''
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F6
   - Alt+ \
   - Alt+ R
   - Alt+ L
   - Alt+ S
   - Alt+ LEFT ARROW
   - Alt+ RIGHT ARROW
+  - ''
+  - F6
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - F12
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
@@ -111,8 +111,8 @@ layers:
   - ''
   - ''
   - Sft+Alt+ 1
-  - ''
-  - ''
+  - F11
+  - F12
   - VOLUME DOWN
   - VOLUME UP
   - MUTE
