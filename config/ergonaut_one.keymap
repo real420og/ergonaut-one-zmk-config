@@ -558,6 +558,14 @@
             key-positions = <38 39>;
             layers = <0>;
         };
+
+        enter2 {
+            bindings = <&kp ENTER>;
+            key-positions = <32 31>;
+            timeout-ms = <400>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
+        };
     };
 
     keymap {

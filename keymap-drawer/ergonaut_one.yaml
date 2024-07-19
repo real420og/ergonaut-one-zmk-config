@@ -404,3 +404,6 @@ combos:
 - p: [38, 39]
   k: {t: '5', h: sticky}
   l: [default]
+- p: [32, 31]
+  k: ENTER
+  l: [default]

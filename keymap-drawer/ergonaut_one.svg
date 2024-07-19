@@ -445,6 +445,10 @@ text.label, text.footer { stroke: black; }
 <text x="420" y="224" class="combo tap">5</text>
 <text x="420" y="235" class="combo hold">sticky</text>
 </g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">ENTER</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-adjust">
