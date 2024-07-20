@@ -430,7 +430,7 @@
 
         yank {
             bindings = <&vimCopyBuff>;
-            key-positions = <4 5>;
+            key-positions = <>;
             layers = <0>;
             require-prior-idle-ms = <400>;
             slow-release;
@@ -438,7 +438,7 @@
 
         vim_put {
             bindings = <&vimput>;
-            key-positions = <6 7>;
+            key-positions = <>;
             layers = <0>;
             require-prior-idle-ms = <400>;
             slow-release;
@@ -627,16 +627,16 @@
             >;
         };
 
-        layer_6 {
+        jump {
             bindings = <
-&none  &graveQ  &graveW  &graveE  &graveR  &graveT  &none  &none  &none  &none  &none  &none
-&none  &graveA  &graveS  &graveD  &graveF  &graveG  &none  &none  &none  &none  &none  &none
-&none  &none    &none    &none    &none    &none    &none  &none  &none  &none  &none  &none
-                         &none    &none    &mo 1    &none  &none  &none
+&none  &graveQ  &graveW  &graveE  &graveR  &graveT  &vimCopyBuff  &none  &none  &none  &vimput  &none
+&none  &graveA  &graveS  &graveD  &graveF  &graveG  &none         &none  &none  &none  &none    &none
+&none  &none    &none    &none    &none    &none    &none         &none  &none  &none  &none    &none
+                         &none    &none    &mo 1    &none         &none  &none
             >;
         };
 
-        layer_7 {
+        marks {
             bindings = <
 &none  &mQ    &mW    &mE    &mR    &mT    &none  &none  &none  &none  &none  &none
 &none  &mA    &mS    &mD    &mF    &mG    &none  &none  &none  &none  &none  &none
