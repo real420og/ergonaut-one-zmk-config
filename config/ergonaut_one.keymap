@@ -433,6 +433,7 @@
             key-positions = <4 5>;
             layers = <0>;
             require-prior-idle-ms = <400>;
+            slow-release;
         };
 
         vim_put {
@@ -440,6 +441,7 @@
             key-positions = <6 7>;
             layers = <0>;
             require-prior-idle-ms = <400>;
+            slow-release;
         };
 
         switch_lang {
