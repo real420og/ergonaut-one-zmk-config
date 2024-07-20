@@ -434,6 +434,7 @@
             layers = <0>;
             require-prior-idle-ms = <300>;
             slow-release;
+            timeout-ms = <50>;
         };
 
         vim_put {
@@ -442,6 +443,7 @@
             layers = <0>;
             require-prior-idle-ms = <300>;
             slow-release;
+            timeout-ms = <50>;
         };
 
         switch_lang {
