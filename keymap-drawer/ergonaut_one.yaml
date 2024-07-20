@@ -1,0 +1,409 @@
+layers:
+  default:
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - {t: T, h: '&vim_ctrl_caret'}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - BACKSPACE
+  - {t: A, h: LEFT ALT}
+  - {t: S, h: Ctrl}
+  - {t: D, h: LEFT COMMAND}
+  - {t: F, h: LEFT SHIFT}
+  - G
+  - H
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT COMMAND}
+  - {t: L, h: Ctrl}
+  - {t: ;, h: RIGHT ALT}
+  - ''''
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - {t: M, h: marks}
+  - ','
+  - .
+  - /
+  - ''
+  - {t: '`', h: jump}
+  - {t: signs, h: signs}
+  - ↹
+  - {t: ␣, h: arrows}
+  - '['
+  - ']'
+  adjust:
+  - Boot
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Z
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  arrows:
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - Alt+ \
+  - Alt+ R
+  - Alt+ L
+  - Alt+ S
+  - Alt+ LEFT ARROW
+  - Alt+ RIGHT ARROW
+  - ''
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - ''
+  - ''
+  - Sft+Alt+ 1
+  - F11
+  - F12
+  - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
+  - Sft+Ctl+ =
+  - Ctl+ -
+  - Sft+Ctl+ -
+  - Alt+Ctl+Gui+ LEFT ARROW
+  - Alt+Ctl+Gui+ RIGHT ARROW
+  - Sft+Gui+ P
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  numbers:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  signs:
+  - ''
+  - '&less_greater'
+  - '&less_equal'
+  - '&greater_equal'
+  - '&colon_double'
+  - ''
+  - '-'
+  - '='
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&minus_greater_than'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&pipe_double'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - \
+  - ''
+  - '&less_than_minus'
+  - '&exclamatory_and_equal'
+  - '&equal_arrow'
+  - '&equals_colon'
+  - ''
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - '&curly_brackets_double'
+  - ''
+  '5':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+Sft+Alt+ A
+  - Gui+Alt+Sft+ P
+  - Gui+Alt+Sft+ D
+  - ''
+  - Gui+Alt+Sft+ G
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+Alt+Sft+ Z
+  - Sft+Alt+Gui+ 2
+  - Gui+Alt+Sft+ 1
+  - ''
+  - Gui+Alt+Sft+ 3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Gui+ ↹, type: held}
+  - {t: Gui+ ↹, type: held}
+  - ''
+  - ''
+  jump:
+  - ''
+  - '&graveQ'
+  - '&graveW'
+  - '&graveE'
+  - '&graveR'
+  - '&graveT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&graveA'
+  - '&graveS'
+  - '&graveD'
+  - '&graveF'
+  - '&graveG'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - adjust
+  - ''
+  - ''
+  - ''
+  marks:
+  - ''
+  - '&mQ'
+  - '&mW'
+  - '&mE'
+  - '&mR'
+  - '&mT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mA'
+  - '&mS'
+  - '&mD'
+  - '&mF'
+  - '&mG'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [20, 21]
+  k: {t: Ctl+ ␣, h: Gui+ Ctrl}
+  l: [default]
+- p: [6, 7]
+  k: '&vimCopyBuff'
+  l: [default]
+- p: [9, 10]
+  k: '&vimput'
+  l: [default]
+- p: [16, 17]
+  k: F16
+  l: [default]
+- p: [15, 16]
+  k: {t: ESCAPE, h: Gui+ LEFT SHIFT}
+  l: [default]
+- p: [16, 22]
+  k: Sft+ ;
+  l: [default]
+- p: [16, 23]
+  k: Sft+ '
+  l: [default]
+- p: [16, 34]
+  k: Sft+ /
+  l: [default]
+- p: [16, 40]
+  k: Sft+ [
+  l: [default]
+- p: [16, 41]
+  k: Sft+ ]
+  l: [default]
+- p: [39, 18]
+  k: LEFT ARROW
+  l: [default]
+- p: [39, 19]
+  k: DOWN ARROW
+  l: [default]
+- p: [39, 20]
+  k: UP ARROW
+  l: [default]
+- p: [39, 21]
+  k: RIGHT ARROW
+  l: [default]
+- p: [19, 20]
+  k: {t: ESCAPE, h: Gui+ LEFT SHIFT}
+  l: [default]
+- p: [18, 19]
+  k: F16
+  l: [default]
+- p: [21, 9]
+  k: Ctl+ O
+  l: [default]
+- p: [15, 14]
+  k: {t: ↹, h: Ctl+ LEFT GUI}
+  l: [default]
+- p: [33, 32]
+  k: ENTER
+  l: [default]
+- p: [38, 39]
+  k: {t: '5', h: sticky}
+  l: [default]
+- p: [32, 31]
+  k: ENTER
+  l: [default]

@@ -274,7 +274,7 @@ text.label, text.footer { stroke: black; }
 <g transform="translate(588, 147)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">M</text>
-<text x="0" y="24" class="key hold">7</text>
+<text x="0" y="24" class="key hold">marks</text>
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -294,7 +294,7 @@ text.label, text.footer { stroke: black; }
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">`</text>
-<text x="0" y="24" class="key hold">6</text>
+<text x="0" y="24" class="key hold">jump</text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -326,12 +326,12 @@ text.label, text.footer { stroke: black; }
 <text x="672" y="98" class="combo hold"><tspan style="font-size: 78%">Gui+ Ctrl</tspan></text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="266" y="26" width="28" height="26" class="combo"/>
-<text x="280" y="38" class="combo tap"><tspan style="font-size: 64%">&amp;vimCopyBu…</tspan></text>
+<rect rx="6" ry="6" x="546" y="26" width="28" height="26" class="combo"/>
+<text x="560" y="38" class="combo tap"><tspan style="font-size: 64%">&amp;vimCopyBu…</tspan></text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="546" y="26" width="28" height="26" class="combo"/>
-<text x="560" y="38" class="combo tap">&amp;vimput</text>
+<rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
+<text x="728" y="42" class="combo tap">&amp;vimput</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="266" y="82" width="28" height="26" class="combo"/>
@@ -1307,8 +1307,8 @@ text.label, text.footer { stroke: black; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1984)" class="layer-6">
-<text x="0" y="28" class="label">6:</text>
+<g transform="translate(30, 1984)" class="layer-jump">
+<text x="0" y="28" class="label">jump:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1449,8 +1449,8 @@ text.label, text.footer { stroke: black; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 2315)" class="layer-7">
-<text x="0" y="28" class="label">7:</text>
+<g transform="translate(30, 2315)" class="layer-marks">
+<text x="0" y="28" class="label">marks:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
