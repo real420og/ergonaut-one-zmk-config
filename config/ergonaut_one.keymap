@@ -432,14 +432,14 @@
             bindings = <&vimCopyBuff>;
             key-positions = <4 5>;
             layers = <0>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <400>;
         };
 
         vim_put {
             bindings = <&vimput>;
             key-positions = <6 7>;
             layers = <0>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <400>;
         };
 
         switch_lang {
