@@ -618,6 +618,18 @@
             key-positions = <16 18>;
             layers = <4>;
         };
+
+        percent {
+            bindings = <&kp LS(N5)>;
+            key-positions = <16 37 22>;
+            layers = <0>;
+        };
+
+        percent2 {
+            bindings = <&kp LS(N5)>;
+            key-positions = <16 22>;
+            layers = <4>;
+        };
     };
 
     keymap {
