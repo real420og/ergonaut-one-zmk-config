@@ -594,6 +594,18 @@
             key-positions = <16 20>;
             layers = <4>;
         };
+
+        at {
+            bindings = <&kp LS(N2)>;
+            key-positions = <16 37 19>;
+            layers = <0>;
+        };
+
+        at2 {
+            bindings = <&kp LS(N2)>;
+            key-positions = <16 19>;
+            layers = <4>;
+        };
     };
 
     keymap {

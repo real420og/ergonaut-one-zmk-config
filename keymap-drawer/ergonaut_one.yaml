@@ -419,3 +419,9 @@ combos:
 - p: [16, 20]
   k: Sft+ 3
   l: [signs]
+- p: [16, 37, 19]
+  k: Sft+ 2
+  l: [default]
+- p: [16, 19]
+  k: Sft+ 2
+  l: [signs]
