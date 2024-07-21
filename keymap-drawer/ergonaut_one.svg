@@ -476,6 +476,15 @@ text.label, text.footer { stroke: black; }
 <tspan x="375" dy="-0.6em">Sft+</tspan><tspan x="375" dy="1.2em">2</tspan>
 </text>
 </g>
+<g class="combo combopos-24">
+<path d="M357,134 l-87,-36" class="combo"/>
+<path d="M357,134 l-58,65" class="combo"/>
+<path d="M357,134 l157,-32" class="combo"/>
+<rect rx="6" ry="6" x="343" y="121" width="28" height="26" class="combo"/>
+<text x="357" y="134" class="combo tap">
+<tspan x="357" dy="-0.6em">Sft+</tspan><tspan x="357" dy="1.2em">1</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-adjust">
@@ -1193,6 +1202,14 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="406" y="78" width="28" height="26" class="combo"/>
 <text x="420" y="91" class="combo tap">
 <tspan x="420" dy="-0.6em">Sft+</tspan><tspan x="420" dy="1.2em">2</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<path d="M392,94 l-121,-3" class="combo"/>
+<path d="M392,94 l121,3" class="combo"/>
+<rect rx="6" ry="6" x="378" y="82" width="28" height="26" class="combo"/>
+<text x="392" y="94" class="combo tap">
+<tspan x="392" dy="-0.6em">Sft+</tspan><tspan x="392" dy="1.2em">1</tspan>
 </text>
 </g>
 </g>
