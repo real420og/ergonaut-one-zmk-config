@@ -714,6 +714,13 @@
             key-positions = <16 7>;
             layers = <4>;
         };
+
+        shift_o {
+            bindings = <&kp LS(O)>;
+            key-positions = <16 9>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
+        };
     };
 
     keymap {
