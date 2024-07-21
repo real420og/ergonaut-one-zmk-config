@@ -185,10 +185,10 @@ layers:
   - ''
   - ''
   - '&minus_greater_than'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - Ctrl
+  - LEFT GUI
+  - LEFT SHIFT
   - '&pipe_double'
   - '1'
   - '2'
