@@ -666,6 +666,18 @@
             key-positions = <16 32>;
             layers = <4>;
         };
+
+        left_parenthesis {
+            bindings = <&kp LS(N9)>;
+            key-positions = <16 37 33>;
+            layers = <0>;
+        };
+
+        left_parenthesis2 {
+            bindings = <&kp LS(N9)>;
+            key-positions = <16 33>;
+            layers = <4>;
+        };
     };
 
     keymap {
