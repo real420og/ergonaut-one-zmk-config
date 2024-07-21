@@ -630,6 +630,18 @@
             key-positions = <16 22>;
             layers = <4>;
         };
+
+        caret {
+            bindings = <&kp LS(N6)>;
+            key-positions = <16 37 30>;
+            layers = <0>;
+        };
+
+        caret2 {
+            bindings = <&kp LS(N6)>;
+            key-positions = <16 30>;
+            layers = <4>;
+        };
     };
 
     keymap {
