@@ -570,6 +570,11 @@
             require-prior-idle-ms = <200>;
             layers = <0>;
         };
+
+        dollar {
+            bindings = <&kp LS(N4)>;
+            key-positions = <16 21 37>;
+        };
     };
 
     keymap {
