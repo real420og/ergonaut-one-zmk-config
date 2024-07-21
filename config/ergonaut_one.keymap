@@ -574,6 +574,13 @@
         dollar {
             bindings = <&kp LS(N4)>;
             key-positions = <16 21 37>;
+            layers = <0>;
+        };
+
+        dollar2 {
+            bindings = <&kp LS(N4)>;
+            key-positions = <16 21>;
+            layers = <4>;
         };
     };
 
