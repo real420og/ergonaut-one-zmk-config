@@ -642,6 +642,18 @@
             key-positions = <16 30>;
             layers = <4>;
         };
+
+        ampersand {
+            bindings = <&kp LS(N7)>;
+            key-positions = <16 37 31>;
+            layers = <0>;
+        };
+
+        ampersand2 {
+            bindings = <&kp LS(N7)>;
+            key-positions = <16 31>;
+            layers = <4>;
+        };
     };
 
     keymap {

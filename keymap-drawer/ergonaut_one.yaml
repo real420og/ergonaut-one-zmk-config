@@ -443,3 +443,9 @@ combos:
 - p: [16, 30]
   k: Sft+ 6
   l: [signs]
+- p: [16, 37, 31]
+  k: Sft+ 7
+  l: [default]
+- p: [16, 31]
+  k: Sft+ 7
+  l: [signs]
