@@ -678,6 +678,18 @@
             key-positions = <16 33>;
             layers = <4>;
         };
+
+        right_parenthesis {
+            bindings = <&kp LS(N0)>;
+            key-positions = <16 37 34>;
+            layers = <0>;
+        };
+
+        right_parenthesis2 {
+            bindings = <&kp LS(N0)>;
+            key-positions = <16 34>;
+            layers = <4>;
+        };
     };
 
     keymap {
