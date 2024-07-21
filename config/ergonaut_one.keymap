@@ -654,6 +654,18 @@
             key-positions = <16 31>;
             layers = <4>;
         };
+
+        asterisk {
+            bindings = <&kp LS(N8)>;
+            key-positions = <16 37 32>;
+            layers = <0>;
+        };
+
+        asterisk2 {
+            bindings = <&kp LS(N8)>;
+            key-positions = <16 32>;
+            layers = <4>;
+        };
     };
 
     keymap {
