@@ -173,10 +173,10 @@ layers:
   - {t: ▽, type: trans}
   signs:
   - ''
-  - '&less_greater'
   - ''
   - ''
-  - '&colon_double'
+  - ''
+  - ''
   - ''
   - '-'
   - '='
@@ -189,7 +189,7 @@ layers:
   - Ctrl
   - LEFT GUI
   - LEFT SHIFT
-  - '&pipe_double'
+  - ''
   - '1'
   - '2'
   - '3'
@@ -288,11 +288,11 @@ layers:
   - ''
   - ''
   - ''
-  - '&equals_colon'
   - '&exclamatory_and_equal'
-  - ''
-  - ''
-  - ''
+  - '&equals_colon'
+  - '&less_greater'
+  - '&colon_double'
+  - '&pipe_double'
   - ''
   - {type: held}
   - ''
