@@ -519,6 +519,7 @@
             key-positions = <39 21>;
             layers = <0>;
             require-prior-idle-ms = <300>;
+            timeout-ms = <200>;
         };
 
         escape3 {
