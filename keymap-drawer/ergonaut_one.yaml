@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&minus_greater_than'
+  - ''
   - LEFT ALT
   - Ctrl
   - LEFT GUI
@@ -197,7 +197,7 @@ layers:
   - '5'
   - \
   - ''
-  - '&less_than_minus'
+  - ''
   - '&exclamatory_and_equal'
   - '&equal_arrow'
   - '&equals_colon'
@@ -276,8 +276,8 @@ layers:
   - '&graveD'
   - '&graveF'
   - '&graveG'
-  - ''
-  - ''
+  - '&minus_greater_than'
+  - '&less_than_minus'
   - ''
   - ''
   - ''
