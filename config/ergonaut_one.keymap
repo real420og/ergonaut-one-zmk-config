@@ -552,7 +552,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <33 32>;
+            key-positions = <>;
             require-prior-idle-ms = <200>;
             layers = <0>;
             timeout-ms = <400>;
@@ -568,7 +568,7 @@
             bindings = <&kp ENTER>;
             key-positions = <32 31>;
             timeout-ms = <400>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <100>;
             layers = <0>;
         };
 
