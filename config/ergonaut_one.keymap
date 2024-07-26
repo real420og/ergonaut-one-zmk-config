@@ -484,14 +484,14 @@
 
         left_brace {
             bindings = <&kp LS(LEFT_BRACKET)>;
-            key-positions = <16 40>;
+            key-positions = <>;
             timeout-ms = <100>;
             layers = <0>;
         };
 
         right_brace {
             bindings = <&kp LS(RIGHT_BRACKET)>;
-            key-positions = <16 41>;
+            key-positions = <>;
             timeout-ms = <100>;
             layers = <0>;
         };
