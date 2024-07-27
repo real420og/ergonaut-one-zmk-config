@@ -280,6 +280,32 @@
             bindings = <&kp GRAVE &kp LS(G)>;
             label = "GRAVEG";
         };
+
+        vim_yank_buff: vim_yank_buff {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp DQT &kp PLUS &kp Y>,
+                <&macro_press>,
+                <&macro_pause_for_release>,
+                <&macro_release>;
+
+            label = "VIM_YANK_BUFF";
+        };
+
+        vim_past_0: vim_past_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp DQT &kp N0 &kp P>,
+                <&macro_press>,
+                <&macro_pause_for_release>,
+                <&macro_release>;
+
+            label = "VIM_PAST_0";
+        };
     };
 
     behaviors {
@@ -416,6 +442,26 @@
             #binding-cells = <1>;
             release-after-ms = <1000>;
         };
+
+        kp_and_vim_yank_buff: kp_and_vim_yank_buff {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_AND_VIM_YANK_BUFF";
+            bindings = <&vim_yank_buff>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        kp_and_vim_past_0: kp_and_vim_past_0 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_AND_VIM_PAST_0";
+            bindings = <&vim_past_0>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
@@ -430,7 +476,7 @@
 
         yank {
             bindings = <&vimCopyBuff>;
-            key-positions = <6 7>;
+            key-positions = <>;
             layers = <0>;
             require-prior-idle-ms = <300>;
             slow-release;
@@ -439,7 +485,7 @@
 
         vim_put {
             bindings = <&vimput>;
-            key-positions = <9 10>;
+            key-positions = <>;
             layers = <0>;
             require-prior-idle-ms = <300>;
             slow-release;
@@ -729,7 +775,7 @@
 
         default_layer {
             bindings = <
-&none          &kp Q            &kp W         &kp E                            &kp R                         &kp_and_vim_ctrl_caret 0 T  &kp Y                           &kp U                       &kp I                 &kp O         &kp P                     &none
+&none          &kp Q            &kp W         &kp E                            &kp R                         &kp_and_vim_ctrl_caret 0 T  &kp_and_vim_yank_buff 0 Y       &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &none
 &kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D              &hml LEFT_SHIFT F             &kp G                       &kp H                           &hml RIGHT_SHIFT J          &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &kp SQT
 &none          &kp Z            &kp X         &kp C                            &kp V                         &kp B                       &kp N                           &lt_tap_prefer_release 7 M  &kp COMMA             &kp DOT       &kp SLASH                 &none
                                               &lt_hold_prefer_release 6 GRAVE  &lt_hold_prefer_release2 4 4  &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
