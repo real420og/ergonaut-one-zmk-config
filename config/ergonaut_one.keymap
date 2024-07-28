@@ -462,6 +462,15 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings =
+                <&lt_hold_prefer_release2 3 3>,
+                <&lt_hold_prefer_release2 7 7>;
+        };
     };
 
     combos {
@@ -605,7 +614,7 @@
         };
 
         app_layout {
-            bindings = <&sl 5>;
+            bindings = <&sl 4>;
             key-positions = <38 39>;
             layers = <0>;
         };
@@ -627,7 +636,7 @@
         dollar2 {
             bindings = <&kp LS(N4)>;
             key-positions = <16 21>;
-            layers = <4>;
+            layers = <3>;
         };
 
         hash {
@@ -639,7 +648,7 @@
         hash2 {
             bindings = <&kp LS(N3)>;
             key-positions = <16 20>;
-            layers = <4>;
+            layers = <3>;
         };
 
         at {
@@ -651,7 +660,7 @@
         at2 {
             bindings = <&kp LS(N2)>;
             key-positions = <16 19>;
-            layers = <4>;
+            layers = <3>;
         };
 
         exclamation {
@@ -663,7 +672,7 @@
         exclamation2 {
             bindings = <&kp LS(N1)>;
             key-positions = <16 18>;
-            layers = <4>;
+            layers = <3>;
         };
 
         percent {
@@ -675,7 +684,7 @@
         percent2 {
             bindings = <&kp LS(N5)>;
             key-positions = <16 22>;
-            layers = <4>;
+            layers = <3>;
         };
 
         caret {
@@ -687,7 +696,7 @@
         caret2 {
             bindings = <&kp LS(N6)>;
             key-positions = <16 30>;
-            layers = <4>;
+            layers = <3>;
         };
 
         ampersand {
@@ -699,7 +708,7 @@
         ampersand2 {
             bindings = <&kp LS(N7)>;
             key-positions = <16 31>;
-            layers = <4>;
+            layers = <3>;
         };
 
         asterisk {
@@ -711,7 +720,7 @@
         asterisk2 {
             bindings = <&kp LS(N8)>;
             key-positions = <16 32>;
-            layers = <4>;
+            layers = <3>;
         };
 
         left_parenthesis {
@@ -723,7 +732,7 @@
         left_parenthesis2 {
             bindings = <&kp LS(N9)>;
             key-positions = <16 33>;
-            layers = <4>;
+            layers = <3>;
         };
 
         right_parenthesis {
@@ -735,7 +744,7 @@
         right_parenthesis2 {
             bindings = <&kp LS(N0)>;
             key-positions = <16 34>;
-            layers = <4>;
+            layers = <3>;
         };
 
         underscope {
@@ -747,7 +756,7 @@
         underscope2 {
             bindings = <&kp LS(MINUS)>;
             key-positions = <16 6>;
-            layers = <4>;
+            layers = <3>;
         };
 
         plus {
@@ -759,7 +768,7 @@
         plus2 {
             bindings = <&kp LS(EQUAL)>;
             key-positions = <16 7>;
-            layers = <4>;
+            layers = <3>;
         };
 
         shift_o {
@@ -775,10 +784,10 @@
 
         default_layer {
             bindings = <
-&none          &kp Q            &kp W         &kp E                            &kp R                         &kp_and_vim_ctrl_caret 0 T  &kp_and_vim_yank_buff 0 Y       &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &none
-&kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D              &hml LEFT_SHIFT F             &kp G                       &kp H                           &hml RIGHT_SHIFT J          &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &kp SQT
-&none          &kp Z            &kp X         &kp C                            &kp V                         &kp B                       &kp N                           &lt_tap_prefer_release 7 M  &kp COMMA             &kp DOT       &kp SLASH                 &none
-                                              &lt_hold_prefer_release 6 GRAVE  &lt_hold_prefer_release2 4 4  &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
+&none          &kp Q            &kp W         &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &kp_and_vim_yank_buff 0 Y       &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &none
+&kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D              &hml LEFT_SHIFT F  &kp G                       &kp H                           &hml RIGHT_SHIFT J          &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &kp SQT
+&none          &kp Z            &kp X         &kp C                            &kp V              &kp B                       &kp N                           &lt_tap_prefer_release 6 M  &kp COMMA             &kp DOT       &kp SLASH                 &none
+                                              &lt_hold_prefer_release 5 GRAVE  &new_behavior      &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
             >;
         };
 
@@ -801,15 +810,6 @@
         };
 
         numbers {
-            bindings = <
-&none  &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none
-&none  &trans  &trans  &trans  &trans  &none   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &none
-&none  &none   &none   &none   &none   &none   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none
-                       &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        signs {
             bindings = <
 &none  &none         &none      &none         &none           &none  &kp MINUS     &kp EQUAL               &none   &none   &none   &none
 &none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp N1        &kp N2                  &kp N3  &kp N4  &kp N5  &kp BACKSLASH
@@ -842,6 +842,15 @@
 &none  &mA    &mS    &mD    &mF    &mG    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
                      &none  &none  &none  &none  &none  &none
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&none  &none         &none      &none         &none           &none  &kp MINUS     &kp EQUAL               &none   &none   &none   &none
+&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp N1        &kp N2                  &kp N3  &kp N4  &kp N5  &kp BACKSLASH
+&none  &none         &none      &none         &none           &none  &kp NUMBER_6  &kp N7                  &kp N8  &kp N9  &kp N0  &none
+                                &trans        &none           &none  &none         &curly_brackets_double  &none
             >;
         };
     };
