@@ -467,11 +467,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NEW_BEHAVIOR";
             #binding-cells = <0>;
-            bindings =
-                <&lt_hold_prefer_release2 3 3>,
-                <&lt_hold_prefer_release2 7 7>;
+            bindings = <&lt 3 N3>, <&lt_hold_prefer_release2 7 7>;
 
-            tapping-term-ms = <1000>;
+            tapping-term-ms = <500>;
         };
     };
 
