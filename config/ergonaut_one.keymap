@@ -848,7 +848,7 @@
         layer_7 {
             bindings = <
 &none  &none         &none      &none         &none           &none  &kp MINUS     &kp EQUAL               &none   &none   &none   &none
-&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp N1        &kp N2                  &kp N3  &kp N4  &kp N5  &kp BACKSLASH
+&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp LS(N1)    &kp N2                  &kp N3  &kp N4  &kp N5  &kp BACKSLASH
 &none  &none         &none      &none         &none           &none  &kp NUMBER_6  &kp N7                  &kp N8  &kp N9  &kp N0  &none
                                 &trans        &none           &none  &none         &curly_brackets_double  &none
             >;
