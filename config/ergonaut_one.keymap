@@ -562,8 +562,6 @@
             bindings = <&kp LEFT_ARROW>;
             key-positions = <39 18>;
             layers = <0>;
-            timeout-ms = <200>;
-            require-prior-idle-ms = <200>;
         };
 
         down_arrow {
