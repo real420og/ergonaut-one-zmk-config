@@ -667,7 +667,7 @@
         };
 
         app_layout {
-            bindings = <&sl 4>;
+            bindings = <&tab_command_tab 0 4>;
             key-positions = <38 39>;
             layers = <0>;
         };
