@@ -518,7 +518,7 @@
         tab_command_tab: tab_command_tab {
             compatible = "zmk,behavior-hold-tap";
             label = "TAB_COMMAND_TAB";
-            bindings = <&right_parenthesis>, <&mo>;
+            bindings = <&tab_command>, <&sl1000>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
