@@ -536,32 +536,6 @@
             timeout-ms = <200>;
         };
 
-        yank {
-            bindings = <&vimCopyBuff>;
-            key-positions = <>;
-            layers = <0>;
-            require-prior-idle-ms = <300>;
-            slow-release;
-            timeout-ms = <50>;
-        };
-
-        vim_put {
-            bindings = <&vimput>;
-            key-positions = <>;
-            layers = <0>;
-            require-prior-idle-ms = <300>;
-            slow-release;
-            timeout-ms = <50>;
-        };
-
-        switch_lang {
-            bindings = <&kp F16>;
-            key-positions = <>;
-            layers = <0>;
-            require-prior-idle-ms = <200>;
-            timeout-ms = <50>;
-        };
-
         escape {
             bindings = <&mt LG(LEFT_SHIFT) ESCAPE>;
             key-positions = <15 16>;
@@ -586,20 +560,6 @@
         questing {
             bindings = <&kp LS(SLASH)>;
             key-positions = <16 34>;
-            timeout-ms = <100>;
-            layers = <0>;
-        };
-
-        left_brace {
-            bindings = <&kp LS(LEFT_BRACKET)>;
-            key-positions = <>;
-            timeout-ms = <100>;
-            layers = <0>;
-        };
-
-        right_brace {
-            bindings = <&kp LS(RIGHT_BRACKET)>;
-            key-positions = <>;
             timeout-ms = <100>;
             layers = <0>;
         };
@@ -651,21 +611,6 @@
             layers = <0>;
         };
 
-        tab {
-            bindings = <&mt LC(LEFT_GUI) TAB>;
-            key-positions = <15 14>;
-            require-prior-idle-ms = <200>;
-            layers = <0>;
-        };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <>;
-            require-prior-idle-ms = <200>;
-            layers = <0>;
-            timeout-ms = <400>;
-        };
-
         app_layout {
             bindings = <&tab_command_tab 0 4>;
             key-positions = <38 39>;
@@ -678,150 +623,6 @@
             timeout-ms = <400>;
             require-prior-idle-ms = <100>;
             layers = <0>;
-        };
-
-        dollar {
-            bindings = <&kp LS(N4)>;
-            key-positions = <16 21 37>;
-            layers = <0>;
-        };
-
-        dollar2 {
-            bindings = <&kp LS(N4)>;
-            key-positions = <16 21>;
-            layers = <3>;
-        };
-
-        hash {
-            bindings = <&kp LS(N3)>;
-            key-positions = <16 37 20>;
-            layers = <0>;
-        };
-
-        hash2 {
-            bindings = <&kp LS(N3)>;
-            key-positions = <16 20>;
-            layers = <3>;
-        };
-
-        at {
-            bindings = <&kp LS(N2)>;
-            key-positions = <16 37 19>;
-            layers = <0>;
-        };
-
-        at2 {
-            bindings = <&kp LS(N2)>;
-            key-positions = <16 19>;
-            layers = <3>;
-        };
-
-        exclamation {
-            bindings = <&kp LS(N1)>;
-            key-positions = <16 37 18>;
-            layers = <0>;
-        };
-
-        exclamation2 {
-            bindings = <&kp LS(N1)>;
-            key-positions = <16 18>;
-            layers = <3>;
-        };
-
-        percent {
-            bindings = <&kp LS(N5)>;
-            key-positions = <16 37 22>;
-            layers = <0>;
-        };
-
-        percent2 {
-            bindings = <&kp LS(N5)>;
-            key-positions = <16 22>;
-            layers = <3>;
-        };
-
-        caret {
-            bindings = <&kp LS(N6)>;
-            key-positions = <16 37 30>;
-            layers = <0>;
-        };
-
-        caret2 {
-            bindings = <&kp LS(N6)>;
-            key-positions = <16 30>;
-            layers = <3>;
-        };
-
-        ampersand {
-            bindings = <&kp LS(N7)>;
-            key-positions = <16 37 31>;
-            layers = <0>;
-        };
-
-        ampersand2 {
-            bindings = <&kp LS(N7)>;
-            key-positions = <16 31>;
-            layers = <3>;
-        };
-
-        asterisk {
-            bindings = <&kp LS(N8)>;
-            key-positions = <16 37 32>;
-            layers = <0>;
-        };
-
-        asterisk2 {
-            bindings = <&kp LS(N8)>;
-            key-positions = <16 32>;
-            layers = <3>;
-        };
-
-        left_parenthesis {
-            bindings = <&kp LS(N9)>;
-            key-positions = <16 37 33>;
-            layers = <0>;
-        };
-
-        left_parenthesis2 {
-            bindings = <&kp LS(N9)>;
-            key-positions = <16 33>;
-            layers = <3>;
-        };
-
-        right_parenthesis {
-            bindings = <&kp LS(N0)>;
-            key-positions = <16 37 34>;
-            layers = <0>;
-        };
-
-        right_parenthesis2 {
-            bindings = <&kp LS(N0)>;
-            key-positions = <16 34>;
-            layers = <3>;
-        };
-
-        underscope {
-            bindings = <&kp LS(MINUS)>;
-            key-positions = <16 37 6>;
-            layers = <0>;
-        };
-
-        underscope2 {
-            bindings = <&kp LS(MINUS)>;
-            key-positions = <16 6>;
-            layers = <3>;
-        };
-
-        plus {
-            bindings = <&kp LS(EQUAL)>;
-            key-positions = <16 37 7>;
-            layers = <0>;
-        };
-
-        plus2 {
-            bindings = <&kp LS(EQUAL)>;
-            key-positions = <16 7>;
-            layers = <3>;
         };
 
         shift_o {
