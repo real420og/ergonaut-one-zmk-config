@@ -389,3 +389,9 @@ combos:
 - p: [16, 9]
   k: Sft+ O
   l: [default]
+- p: [16, 33]
+  k: Sft+ >
+  l: [default]
+- p: [16, 32]
+  k: Sft+ <
+  l: [default]

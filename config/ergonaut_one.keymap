@@ -631,6 +631,20 @@
             require-prior-idle-ms = <200>;
             layers = <0>;
         };
+
+        greater_than {
+            bindings = <&kp LS(GREATER_THAN)>;
+            key-positions = <16 33>;
+            timeout-ms = <100>;
+            layers = <0>;
+        };
+
+        less_than {
+            bindings = <&kp LS(LESS_THAN)>;
+            key-positions = <16 32>;
+            timeout-ms = <100>;
+            layers = <0>;
+        };
     };
 
     keymap {
