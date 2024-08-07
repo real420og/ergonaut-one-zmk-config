@@ -9,7 +9,7 @@ layers:
   - {t: Y, h: '&vim_yank_buff'}
   - U
   - I
-  - O
+  - {t: O, h: '&ctrl_o'}
   - {t: P, h: '&vim_past_0'}
   - ''
   - BACKSPACE
