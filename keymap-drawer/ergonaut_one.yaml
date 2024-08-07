@@ -347,9 +347,6 @@ combos:
 - p: [20, 21]
   k: {t: Ctl+ ␣, h: Gui+ Ctrl}
   l: [default]
-- p: [15, 16]
-  k: {t: ESCAPE, h: Gui+ LEFT SHIFT}
-  l: [default]
 - p: [19, 20]
   k: {t: ESCAPE, h: Gui+ LEFT SHIFT}
   l: [default]
