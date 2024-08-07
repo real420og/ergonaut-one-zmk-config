@@ -540,14 +540,14 @@
             bindings = <&mt LG(LEFT_SHIFT) ESCAPE>;
             key-positions = <15 16>;
             layers = <0>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <100>;
         };
 
         escape3 {
             bindings = <&mt LG(LEFT_SHIFT) ESCAPE>;
             key-positions = <19 20>;
             layers = <0>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <100>;
         };
 
         switch_lang2 {
