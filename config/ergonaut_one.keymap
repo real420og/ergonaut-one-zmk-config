@@ -547,6 +547,24 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        xxx: xxx {
+            compatible = "zmk,behavior-hold-tap";
+            label = "XXX";
+            bindings = <&mo>, <&sl>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        yyy: yyy {
+            compatible = "zmk,behavior-tap-dance";
+            label = "YYY";
+            #binding-cells = <0>;
+            bindings = <&xxx 3 3>, <&xxx 7 7>;
+
+            tapping-term-ms = <500>;
+        };
     };
 
     combos {
@@ -603,7 +621,7 @@
 &none          &kp Q            &kp W         &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &kp_and_vim_yank_buff 0 Y       &kp U                       &kp I                 &ctrl_o_o 0 O  &kp_and_vim_past_0 0 P    &none
 &kp BACKSPACE  &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D              &hml LEFT_SHIFT F  &kp G                       &kp H                           &hml RIGHT_SHIFT J          &hml RIGHT_COMMAND K  &hml RCTRL L   &hml RIGHT_ALT SEMICOLON  &kp SQT
 &none          &kp Z            &kp X         &kp C                            &kp V              &kp B                       &kp N                           &lt_tap_prefer_release 6 M  &kp COMMA             &kp DOT        &kp SLASH                 &right_parenthesis_left 0 LEFT_PARENTHESIS
-                                              &lt_hold_prefer_release 5 GRAVE  &nums_signs_layer  &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
+                                              &lt_hold_prefer_release 5 GRAVE  &yyy               &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
             >;
         };
 
@@ -661,7 +679,7 @@
             >;
         };
 
-        layer_7 {
+        signs {
             bindings = <
 &none  &none         &none      &none         &none  &none  &kp LS(MINUS)     &kp LS(EQUAL)  &none       &none       &none       &none
 &none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &none  &none  &kp LS(N1)        &kp LS(N2)     &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(BACKSLASH)
