@@ -563,7 +563,7 @@
             #binding-cells = <0>;
             bindings = <&mo 3>, <&xxx 7 7>;
 
-            tapping-term-ms = <500>;
+            tapping-term-ms = <300>;
         };
     };
 
