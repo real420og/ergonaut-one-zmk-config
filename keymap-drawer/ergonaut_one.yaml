@@ -8,7 +8,7 @@ layers:
   - {t: T, h: '&vim_ctrl_caret'}
   - {t: Y, h: '&vim_yank_buff'}
   - U
-  - I
+  - {t: I, h: '&ctrl_i'}
   - {t: O, h: '&ctrl_o'}
   - {t: P, h: '&vim_past_0'}
   - ''
