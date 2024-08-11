@@ -8,8 +8,8 @@ layers:
   - {t: T, h: '&vim_ctrl_caret'}
   - {t: Y, h: '&vim_yank_buff'}
   - U
-  - {t: I, h: '&ctrl_i'}
-  - {t: O, h: '&ctrl_o'}
+  - I
+  - O
   - {t: P, h: '&vim_past_0'}
   - ''
   - BACKSPACE
