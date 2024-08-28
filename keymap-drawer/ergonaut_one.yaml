@@ -24,7 +24,7 @@ layers:
   - {t: L, h: Ctrl}
   - {t: ;, h: RIGHT ALT}
   - ''''
-  - ''
+  - {t: '5', h: '&tab_command'}
   - Z
   - X
   - C
@@ -196,7 +196,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: Gui+ ↹, type: held}
   - Gui+Alt+Sft+ Z
   - Sft+Alt+Gui+ 2
   - Gui+Alt+Sft+ 1
@@ -210,8 +210,8 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Gui+ ↹, type: held}
-  - {t: Gui+ ↹, type: held}
+  - Gui+ ↹
+  - Gui+ ↹
   - ''
   - ''
   jump:
