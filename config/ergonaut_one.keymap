@@ -561,20 +561,20 @@
             flavor = "tap-preferred";
         };
 
-        xxx: xxx {
+        sign_layout: sign_layout {
             compatible = "zmk,behavior-hold-tap";
-            label = "XXX";
+            label = "SIGN_LAYOUT";
             bindings = <&mo>, <&sl>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
 
-        yyy: yyy {
+        num_layout: num_layout {
             compatible = "zmk,behavior-tap-dance";
-            label = "YYY";
+            label = "NUM_LAYOUT";
             #binding-cells = <0>;
-            bindings = <&mo 3>, <&xxx 7 7>;
+            bindings = <&mo 3>, <&sign_layout 7 7>;
 
             tapping-term-ms = <200>;
         };
@@ -644,7 +644,7 @@
 &none                 &kp Q            &kp W         &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &kp_and_vim_yank_buff 0 Y       &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &none
 &kp BACKSPACE         &hml LEFT_ALT A  &hml LCTRL S  &hml LEFT_COMMAND D              &hml LEFT_SHIFT F  &kp G                       &kp H                           &hml RIGHT_SHIFT J          &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &kp SQT
 &tab_command_tab 0 4  &kp Z            &kp X         &kp C                            &kp V              &kp B                       &kp N                           &lt_tap_prefer_release 6 M  &kp COMMA             &kp DOT       &kp SLASH                 &right_parenthesis_left 0 LEFT_PARENTHESIS
-                                                     &lt_hold_prefer_release 5 GRAVE  &yyy               &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
+                                                     &lt_hold_prefer_release 5 GRAVE  &num_layout        &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
             >;
         };
 

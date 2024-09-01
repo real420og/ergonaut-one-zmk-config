@@ -37,7 +37,7 @@ layers:
   - /
   - {t: (, h: '&right_parenthesis'}
   - {t: '`', h: jump}
-  - '&yyy'
+  - '&num_layout'
   - ↹
   - {t: ␣, h: arrows}
   - '['
