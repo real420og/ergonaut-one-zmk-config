@@ -611,7 +611,7 @@
             bindings = <&kp F16>;
             key-positions = <18 19>;
             layers = <0>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <100>;
         };
 
         ctrl_o {
