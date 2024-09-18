@@ -166,7 +166,7 @@ layers:
   - '0'
   - ''
   - {t: ▽, type: trans}
-  - {t: signs, h: signs}
+  - ''
   - ''
   - ''
   - '{'
@@ -338,7 +338,7 @@ layers:
   - Sft+ 0
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
