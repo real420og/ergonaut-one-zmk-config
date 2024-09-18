@@ -583,7 +583,7 @@
             #binding-cells = <0>;
             bindings = <&mo 3>, <&sign_layout 7 7>;
 
-            tapping-term-ms = <300>;
+            tapping-term-ms = <400>;
         };
 
         ctrl_i_i: ctrl_i_i {
