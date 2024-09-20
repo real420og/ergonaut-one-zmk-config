@@ -196,7 +196,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Gui+ ↹, type: held}
+  - {t: '&tab_command', type: held}
   - Gui+Alt+Sft+ Z
   - Sft+Alt+Gui+ 2
   - Gui+Alt+Sft+ 1
