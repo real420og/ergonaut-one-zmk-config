@@ -281,6 +281,77 @@
             label = "GRAVEG";
         };
 
+        mZ: mZ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(Z)>;
+            label = "MZ";
+        };
+
+        graveZ: graveZ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(Z)>;
+            label = "GRAVEZ";
+        };
+
+        mX: mX {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(X)>;
+            label = "MX";
+        };
+
+        graveX: graveX {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(X)>;
+            label = "GRAVEX";
+        };
+
+        mC: mC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(C)>;
+            label = "MC";
+        };
+
+        graveC: graveC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(C)>;
+            label = "GRAVEC";
+        };
+
+        mV: mV {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(V)>;
+            label = "MV";
+        };
+
+        graveV: graveV {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(V)>;
+            label = "GRAVEV";
+        };
+
+        mB: mB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp LS(B)>;
+            label = "MB";
+        };
+
+        graveB: graveB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp LS(B)>;
+            label = "GRAVEB";
+        };
+
+
         vim_yank_buff: vim_yank_buff {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -695,7 +766,7 @@
             bindings = <
 &none  &graveQ  &graveW  &graveE  &graveR  &graveT  &none                   &none             &none          &none          &none           &none
 &none  &graveA  &graveS  &graveD  &graveF  &graveG  &minus_greater_than     &less_than_minus  &equal_arrow   &less_equal    &greater_equal  &none
-&none  &none    &none    &none    &none    &none    &exclamatory_and_equal  &equals_colon     &less_greater  &colon_double  &pipe_double    &none
+&none  &graveZ  &graveX  &graveC  &graveV  &graveB  &exclamatory_and_equal  &equals_colon     &less_greater  &colon_double  &pipe_double    &none
                          &none    &none    &mo 1    &none                   &none             &none
             >;
         };
@@ -704,7 +775,7 @@
             bindings = <
 &none  &mQ    &mW    &mE    &mR    &mT    &none  &none  &none  &none  &none  &none
 &none  &mA    &mS    &mD    &mF    &mG    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &mZ    &mX    &mC    &mV    &mB    &none  &none  &none  &none  &none  &none
                      &none  &none  &none  &none  &none  &none
             >;
         };
