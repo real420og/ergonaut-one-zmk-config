@@ -698,12 +698,6 @@
             layers = <0>;
         };
 
-        app_layout {
-            bindings = <&tab_command_tab 0 4>;
-            key-positions = <38 39>;
-            layers = <0>;
-        };
-
         enter2 {
             bindings = <&kp ENTER>;
             key-positions = <32 31>;

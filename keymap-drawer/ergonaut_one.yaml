@@ -356,9 +356,6 @@ combos:
 - p: [21, 9]
   k: Ctl+ O
   l: [default]
-- p: [38, 39]
-  k: {t: '5', h: '&tab_command'}
-  l: [default]
 - p: [32, 31]
   k: ENTER
   l: [default]
