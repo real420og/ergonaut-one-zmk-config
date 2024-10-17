@@ -28,7 +28,7 @@ layers:
   - Z
   - X
   - C
-  - V
+  - {t: V, h: '&command_v'}
   - B
   - N
   - {t: M, h: marks}
