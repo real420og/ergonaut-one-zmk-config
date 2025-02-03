@@ -1,6 +1,6 @@
 layers:
   default:
-  - Gui+ `
+  - Gui+`
   - Q
   - W
   - E
@@ -92,12 +92,12 @@ layers:
   - F3
   - F4
   - F5
-  - Alt+ \
-  - Alt+ R
-  - Alt+ L
-  - Alt+ S
-  - Alt+ LEFT ARROW
-  - Alt+ RIGHT ARROW
+  - Alt+\
+  - Alt+R
+  - Alt+L
+  - Alt+S
+  - Alt+LEFT ARROW
+  - Alt+RIGHT ARROW
   - ''
   - F6
   - F7
@@ -110,18 +110,18 @@ layers:
   - RIGHT ARROW
   - ''
   - ''
-  - Sft+Alt+ 1
+  - Sft+Alt+1
   - F11
   - F12
   - VOLUME DOWN
   - VOLUME UP
   - MUTE
-  - Sft+Ctl+ =
-  - Ctl+ -
-  - Sft+Ctl+ -
-  - Alt+Ctl+Gui+ LEFT ARROW
-  - Alt+Ctl+Gui+ RIGHT ARROW
-  - Sft+Gui+ P
+  - Sft+Ctl+=
+  - Ctl+-
+  - Sft+Ctl+-
+  - Alt+Ctl+Gui+LEFT ARROW
+  - Alt+Ctl+Gui+RIGHT ARROW
+  - Sft+Gui+P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,7 +137,7 @@ layers:
   - ''
   - '-'
   - '='
-  - Sft+ \
+  - Sft+\
   - ''
   - ''
   - ''
@@ -185,11 +185,11 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+Sft+Alt+ A
-  - Gui+Alt+Sft+ P
-  - Gui+Alt+Sft+ D
-  - ''
-  - Gui+Alt+Sft+ G
+  - Gui+Sft+Alt+A
+  - Gui+Alt+Sft+P
+  - Gui+Alt+Sft+D
+  - Sft+Alt+Gui+F
+  - Gui+Alt+Sft+G
   - ''
   - ''
   - ''
@@ -197,11 +197,11 @@ layers:
   - ''
   - ''
   - {t: '&tab_command', type: held}
-  - Gui+Alt+Sft+ Z
-  - Sft+Alt+Gui+ 2
-  - Gui+Alt+Sft+ 1
-  - ''
-  - Gui+Alt+Sft+ 3
+  - Gui+Alt+Sft+Z
+  - Sft+Alt+Gui+2
+  - Gui+Alt+Sft+1
+  - Sft+Alt+Gui+V
+  - Gui+Alt+Sft+3
   - ''
   - ''
   - ''
@@ -307,8 +307,8 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+ -
-  - Sft+ =
+  - Sft+-
+  - Sft+=
   - ''
   - ''
   - ''
@@ -319,23 +319,23 @@ layers:
   - LEFT GUI
   - ''
   - ''
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
-  - Sft+ 4
-  - Sft+ 5
-  - Sft+ \
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+\
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - Sft+ 6
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - Sft+ 0
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
   - ''
   - {t: ▽, type: trans}
   - ''
@@ -345,16 +345,16 @@ layers:
   - ''
 combos:
 - p: [20, 21]
-  k: {t: Ctl+ ␣, h: Gui+ Ctrl}
+  k: {t: Ctl+␣, h: Gui+Ctrl}
   l: [default]
 - p: [19, 20]
-  k: {t: ESCAPE, h: Gui+ LEFT SHIFT}
+  k: {t: ESCAPE, h: Gui+LEFT SHIFT}
   l: [default]
 - p: [18, 19]
   k: F16
   l: [default]
 - p: [21, 9]
-  k: Ctl+ O
+  k: Ctl+O
   l: [default]
 - p: [32, 31]
   k: ENTER
