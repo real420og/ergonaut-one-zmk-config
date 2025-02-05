@@ -55,7 +55,7 @@ layers:
   - ''
   - ''
   - Boot
-  - BT CLR
+  - ''
   - BT 1
   - BT 2
   - BT 3
@@ -181,7 +181,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Sft+Alt+Gui+O
   - ''
   - ''
   - ''
