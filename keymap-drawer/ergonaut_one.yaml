@@ -185,7 +185,7 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+Sft+Alt+A
+  - ''
   - Gui+Alt+Sft+P
   - Gui+Alt+Sft+D
   - Sft+Alt+Gui+F
@@ -254,7 +254,7 @@ layers:
   - {type: held}
   - ''
   - adjust
-  - ''
+  - Sft+Gui+Alt+A
   - ''
   - ''
   marks:
