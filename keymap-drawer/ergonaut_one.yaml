@@ -26,7 +26,7 @@ layers:
   - ''''
   - {t: '5', h: '&tab_command'}
   - Z
-  - X
+  - {t: X, h: '&command_x'}
   - {t: C, h: '&command_c'}
   - {t: V, h: '&command_v'}
   - B
