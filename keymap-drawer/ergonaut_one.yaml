@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
-  - {t: Gui+`, h: '&tab_ctrl'}
+  - {t: '&tab_ctrl', h: '&command_grave'}
   - Q
   - W
   - E
