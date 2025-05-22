@@ -194,7 +194,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Sft+Gui+Alt+4
   - ''
   - ''
   - {t: '&tab_command', type: held}
