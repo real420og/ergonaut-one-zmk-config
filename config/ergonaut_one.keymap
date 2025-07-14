@@ -521,6 +521,13 @@
             bindings = <&kp LC(V) &kp U &kp NUMBER_2 &kp NUMBER_6 &kp NUMBER_3 &kp A>;
             label = "UNICODE_SMILE";
         };
+
+        unicode_smile_2: unicode_smile_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(V) &kp LS(U) &kp N0 &kp N0 &kp N0 &kp N1 &kp LS(F) &kp N6 &kp N0 &kp N0>;
+            label = "UNICODE_SMILE_2";
+        };
     };
 
     behaviors {
@@ -869,9 +876,9 @@
 
         numbers {
             bindings = <
-&none  &none         &none      &none         &command_copy   &none  &kp MINUS     &kp EQUAL       &tt_key_cast     &unicode_smile  &none   &none
-&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp N1        &kp N2          &kp N3           &kp N4          &kp N5  &kp BACKSLASH
-&none  &none         &none      &none         &none           &none  &kp NUMBER_6  &kp N7          &kp N8           &kp N9          &kp N0  &none
+&none  &none         &none      &none         &command_copy   &none  &kp MINUS     &kp EQUAL       &tt_key_cast     &unicode_smile  &unicode_smile_2  &none
+&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp N1        &kp N2          &kp N3           &kp N4          &kp N5            &kp BACKSLASH
+&none  &none         &none      &none         &none           &none  &kp NUMBER_6  &kp N7          &kp N8           &kp N9          &kp N0            &none
                                 &trans        &none           &none  &none         &kp LEFT_BRACE  &kp RIGHT_BRACE
             >;
         };
