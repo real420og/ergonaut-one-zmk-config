@@ -514,6 +514,13 @@
             bindings = <&kp LC(SPACE) &kp Z &kp LC(SPACE) &kp J &kp LG(NUMBER_1)>;
             label = "TT_KEY_CAST";
         };
+
+        unicode_smile: unicode_smile {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(V) &kp U &kp NUMBER_2 &kp NUMBER_6 &kp NUMBER_3 &kp A>;
+            label = "UNICODE_SMILE";
+        };
     };
 
     behaviors {
@@ -862,9 +869,9 @@
 
         numbers {
             bindings = <
-&none  &none         &none      &none         &command_copy   &none  &kp MINUS     &kp EQUAL       &tt_key_cast     &none   &none   &none
-&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp N1        &kp N2          &kp N3           &kp N4  &kp N5  &kp BACKSLASH
-&none  &none         &none      &none         &none           &none  &kp NUMBER_6  &kp N7          &kp N8           &kp N9  &kp N0  &none
+&none  &none         &none      &none         &command_copy   &none  &kp MINUS     &kp EQUAL       &tt_key_cast     &unicode_smile  &none   &none
+&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp N1        &kp N2          &kp N3           &kp N4          &kp N5  &kp BACKSLASH
+&none  &none         &none      &none         &none           &none  &kp NUMBER_6  &kp N7          &kp N8           &kp N9          &kp N0  &none
                                 &trans        &none           &none  &none         &kp LEFT_BRACE  &kp RIGHT_BRACE
             >;
         };
