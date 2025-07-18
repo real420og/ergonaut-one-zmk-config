@@ -802,6 +802,16 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        kp_and_vim_yank_buff_2: kp_and_vim_yank_buff_2 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_AND_VIM_YANK_BUFF_2";
+            bindings = <&slash__enter>, <&vim_yank_buff>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
@@ -849,7 +859,7 @@
 
         default_layer {
             bindings = <
-&command_grave_command 0 0  &kp Q            &kp W             &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &kp_and_vim_yank_buff 0 Y       &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &slash__enter
+&command_grave_command 0 0  &kp Q            &kp W             &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &kp Y                           &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &kp_and_vim_yank_buff_2 0 0
 &kp BACKSPACE               &hml LEFT_ALT A  &hml LCTRL S      &hml LEFT_COMMAND D              &hml LEFT_SHIFT F  &kp G                       &kp H                           &hml RIGHT_SHIFT J          &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &kp SQT
 &tab_command_tab 0 4        &kp Z            &x_command_x 0 X  &c_command_c 0 C                 &v_command_v 0 V   &kp B                       &kp N                           &lt_tap_prefer_release 6 M  &kp COMMA             &kp DOT       &kp SLASH                 &right_parenthesis_left 0 LEFT_PARENTHESIS
                                                                &lt_hold_prefer_release 5 GRAVE  &num_layout        &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
