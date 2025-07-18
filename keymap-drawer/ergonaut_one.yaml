@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - {t: P, h: '&vim_past_0'}
-  - {t: '&vim_yank_buff', h: '&slash__enter'}
+  - '&slash__enter'
   - BACKSPACE
   - {t: A, h: LEFT ALT}
   - {t: S, h: Ctrl}
@@ -222,7 +222,7 @@ layers:
   - '&graveE'
   - '&graveR'
   - '&graveT'
-  - ''
+  - '&vim_yank_buff'
   - ''
   - ''
   - ''

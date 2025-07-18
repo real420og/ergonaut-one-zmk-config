@@ -859,7 +859,7 @@
 
         default_layer {
             bindings = <
-&command_grave_command 0 0  &kp Q            &kp W             &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &kp Y                           &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &kp_and_vim_yank_buff_2 0 0
+&command_grave_command 0 0  &kp Q            &kp W             &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &kp Y                           &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &slash__enter
 &kp BACKSPACE               &hml LEFT_ALT A  &hml LCTRL S      &hml LEFT_COMMAND D              &hml LEFT_SHIFT F  &kp G                       &kp H                           &hml RIGHT_SHIFT J          &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &kp SQT
 &tab_command_tab 0 4        &kp Z            &x_command_x 0 X  &c_command_c 0 C                 &v_command_v 0 V   &kp B                       &kp N                           &lt_tap_prefer_release 6 M  &kp COMMA             &kp DOT       &kp SLASH                 &right_parenthesis_left 0 LEFT_PARENTHESIS
                                                                &lt_hold_prefer_release 5 GRAVE  &num_layout        &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
@@ -904,7 +904,7 @@
 
         jump {
             bindings = <
-&none  &graveQ  &graveW  &graveE  &graveR  &graveT  &none                   &none             &none          &none          &none           &none
+&none  &graveQ  &graveW  &graveE  &graveR  &graveT  &vim_yank_buff          &none             &none          &none          &none           &none
 &none  &graveA  &graveS  &graveD  &graveF  &graveG  &minus_greater_than     &less_than_minus  &equal_arrow   &less_equal    &greater_equal  &none
 &none  &graveZ  &graveX  &graveC  &graveV  &graveB  &exclamatory_and_equal  &equals_colon     &less_greater  &colon_double  &pipe_double    &none
                          &none    &none    &mo 1    &kp LS(LG(LA(A)))       &none             &none
