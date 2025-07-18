@@ -819,7 +819,7 @@
             #binding-cells = <0>;
             bindings = <&kp Y>, <&vim_yank_buff>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
         };
     };
 
