@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - {t: T, h: '&vim_ctrl_caret'}
-  - Y
+  - '&tap_dance_yank'
   - U
   - I
   - O
@@ -222,7 +222,7 @@ layers:
   - '&graveE'
   - '&graveR'
   - '&graveT'
-  - '&tap_dance_yank'
+  - ''
   - ''
   - ''
   - ''
