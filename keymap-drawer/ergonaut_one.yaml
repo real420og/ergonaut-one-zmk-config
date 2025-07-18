@@ -222,7 +222,7 @@ layers:
   - '&graveE'
   - '&graveR'
   - '&graveT'
-  - '&vim_yank_buff'
+  - '&tap_dance_yank'
   - ''
   - ''
   - ''

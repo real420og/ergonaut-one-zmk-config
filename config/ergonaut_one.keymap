@@ -812,6 +812,15 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        tap_dance_yank: tap_dance_yank {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_YANK";
+            #binding-cells = <0>;
+            bindings = <&kp Y>, <&vim_yank_buff>;
+
+            tapping-term-ms = <50>;
+        };
     };
 
     combos {
@@ -904,7 +913,7 @@
 
         jump {
             bindings = <
-&none  &graveQ  &graveW  &graveE  &graveR  &graveT  &vim_yank_buff          &none             &none          &none          &none           &none
+&none  &graveQ  &graveW  &graveE  &graveR  &graveT  &tap_dance_yank         &none             &none          &none          &none           &none
 &none  &graveA  &graveS  &graveD  &graveF  &graveG  &minus_greater_than     &less_than_minus  &equal_arrow   &less_equal    &greater_equal  &none
 &none  &graveZ  &graveX  &graveC  &graveV  &graveB  &exclamatory_and_equal  &equals_colon     &less_greater  &colon_double  &pipe_double    &none
                          &none    &none    &mo 1    &kp LS(LG(LA(A)))       &none             &none
