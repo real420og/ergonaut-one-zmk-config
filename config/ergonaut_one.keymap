@@ -868,7 +868,7 @@
 
         default_layer {
             bindings = <
-&command_grave_command 0 0  &kp Q            &kp W             &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &tap_dance_yank                 &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &slash__enter
+&command_grave_command 0 0  &kp Q            &kp W             &kp E                            &kp R              &kp_and_vim_ctrl_caret 0 T  &kp Y                           &kp U                       &kp I                 &kp O         &kp_and_vim_past_0 0 P    &slash__enter
 &kp BACKSPACE               &hml LEFT_ALT A  &hml LCTRL S      &hml LEFT_COMMAND D              &hml LEFT_SHIFT F  &kp G                       &kp H                           &hml RIGHT_SHIFT J          &hml RIGHT_COMMAND K  &hml RCTRL L  &hml RIGHT_ALT SEMICOLON  &kp SQT
 &tab_command_tab 0 4        &kp Z            &x_command_x 0 X  &c_command_c 0 C                 &v_command_v 0 V   &kp B                       &kp N                           &lt_tap_prefer_release 6 M  &kp COMMA             &kp DOT       &kp SLASH                 &right_parenthesis_left 0 LEFT_PARENTHESIS
                                                                &lt_hold_prefer_release 5 GRAVE  &num_layout        &kp TAB                     &lt_tap_prefer_release 2 SPACE  &kp LBKT                    &kp RBKT
@@ -895,10 +895,10 @@
 
         numbers {
             bindings = <
-&none  &none         &none      &none         &command_copy   &none  &kp MINUS     &kp EQUAL       &tt_key_cast     &unicode_smile  &unicode_smile_2  &none
-&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &none  &kp N1        &kp N2          &kp N3           &kp N4          &kp N5            &kp BACKSLASH
-&none  &none         &none      &none         &none           &none  &kp NUMBER_6  &kp N7          &kp N8           &kp N9          &kp N0            &none
-                                &trans        &none           &none  &none         &kp LEFT_BRACE  &kp RIGHT_BRACE
+&none  &none         &none      &none         &command_copy   &none           &kp MINUS     &kp EQUAL       &tt_key_cast     &unicode_smile  &unicode_smile_2  &none
+&none  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT  &vim_yank_buff  &kp N1        &kp N2          &kp N3           &kp N4          &kp N5            &kp BACKSLASH
+&none  &none         &none      &none         &none           &none           &kp NUMBER_6  &kp N7          &kp N8           &kp N9          &kp N0            &none
+                                &trans        &none           &none           &none         &kp LEFT_BRACE  &kp RIGHT_BRACE
             >;
         };
 

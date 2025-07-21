@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - {t: T, h: '&vim_ctrl_caret'}
-  - '&tap_dance_yank'
+  - Y
   - U
   - I
   - O
@@ -147,7 +147,7 @@ layers:
   - Ctrl
   - LEFT GUI
   - LEFT SHIFT
-  - ''
+  - '&vim_yank_buff'
   - '1'
   - '2'
   - '3'
