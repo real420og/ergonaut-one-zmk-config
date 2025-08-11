@@ -109,7 +109,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - ':'
+  - ''
   - ''
   - Sft+Alt+1
   - F11
@@ -123,7 +123,7 @@ layers:
   - Alt+Ctl+Gui+LEFT ARROW
   - Alt+Ctl+Gui+RIGHT ARROW
   - Sft+Gui+P
-  - {t: ▽, type: trans}
+  - ':'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
