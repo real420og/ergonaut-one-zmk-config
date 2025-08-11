@@ -109,7 +109,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - ''
+  - ':'
   - ''
   - Sft+Alt+1
   - F11
