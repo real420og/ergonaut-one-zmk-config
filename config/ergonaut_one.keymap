@@ -940,10 +940,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp COLON  &kp COLON  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp COLON  &kp COLON  &kp COLON  &kp COLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans
+                        &trans  &trans  &trans  &trans     &trans     &trans
             >;
         };
     };
