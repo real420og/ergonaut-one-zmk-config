@@ -553,14 +553,14 @@
         bracket_to: bracket_to {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp V &kp A &kp LPAR &kp PRCNT &kp V>;
+            bindings = <&kp H &kp V &kp A &kp LPAR &kp PRCNT &kp V>;
             label = "BRACKET_TO";
         };
 
         curly_to: curly_to {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp V &kp A &kp LEFT_BRACE &kp PRCNT &kp V>;
+            bindings = <&kp H &kp V &kp A &kp LEFT_BRACE &kp PRCNT &kp V>;
             label = "CURLY_TO";
         };
     };
