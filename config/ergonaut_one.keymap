@@ -549,6 +549,13 @@
 
             label = "LEFT_BRACE_M";
         };
+
+        bracket_to: bracket_to {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp A &kp LPAR &kp PRCNT &kp V>;
+            label = "BRACKET_TO";
+        };
     };
 
     behaviors {
@@ -974,7 +981,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp COLON      &kp COLON  &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp COLON      &kp COLON  &kp COLON  &kp COLON  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &left_brace_m  &trans     &trans     &kp COLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &left_brace_m  &trans     &trans     &kp COLON  &bracket_to
                         &trans  &trans  &trans  &trans     &trans         &trans
             >;
         };

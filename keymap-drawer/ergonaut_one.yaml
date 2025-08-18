@@ -380,7 +380,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
-  - {t: ▽, type: trans}
+  - '&bracket_to'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
