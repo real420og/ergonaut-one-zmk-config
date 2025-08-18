@@ -535,6 +535,13 @@
             bindings = <&kp RIGHT_BRACKET &kp M>;
             label = "RIGHT_BRACE_M";
         };
+
+        left_brace_m: left_brace_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp M>;
+            label = "LEFT_BRACE_M";
+        };
     };
 
     behaviors {
@@ -958,10 +965,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp COLON  &kp COLON  &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp COLON  &kp COLON  &kp COLON  &kp COLON  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans     &kp COLON  &trans
-                        &trans  &trans  &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp COLON      &kp COLON  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp COLON      &kp COLON  &kp COLON  &kp COLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &left_brace_m  &trans     &trans     &kp COLON  &trans
+                        &trans  &trans  &trans  &trans     &trans         &trans
             >;
         };
 

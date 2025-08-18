@@ -376,7 +376,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&left_brace_m'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
