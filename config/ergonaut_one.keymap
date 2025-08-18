@@ -539,7 +539,14 @@
         left_brace_m: left_brace_m {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp M>;
+            bindings =
+                <&macro_tap>,
+                <&kp LEFT_BRACKET &kp M>,
+                <&macro_press>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&macro_tap>;
+
             label = "LEFT_BRACE_M";
         };
     };
