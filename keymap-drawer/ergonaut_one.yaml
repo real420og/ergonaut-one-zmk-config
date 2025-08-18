@@ -378,7 +378,7 @@ layers:
   - {t: ▽, type: trans}
   - '&left_brace_m'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&curly_next'
   - '&curly_to'
   - '&bracket_to'
   - {t: ▽, type: trans}

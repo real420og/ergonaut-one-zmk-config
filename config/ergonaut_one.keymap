@@ -563,6 +563,13 @@
             bindings = <&kp H &kp V &kp A &kp LEFT_BRACE &kp PRCNT &kp V>;
             label = "CURLY_TO";
         };
+
+        curly_next: curly_next {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DLLR &kp PRCNT &kp DLLR &kp W>;
+            label = "CURLY_NEXT";
+        };
     };
 
     behaviors {
@@ -986,9 +993,9 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp COLON      &kp COLON  &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp COLON      &kp COLON  &kp COLON  &kp COLON  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &left_brace_m  &trans     &trans     &curly_to  &bracket_to
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp COLON      &kp COLON  &trans       &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp COLON      &kp COLON  &kp COLON    &kp COLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &left_brace_m  &trans     &curly_next  &curly_to  &bracket_to
                         &trans  &trans  &trans  &trans     &trans         &trans
             >;
         };
