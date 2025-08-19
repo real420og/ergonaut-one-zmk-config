@@ -564,10 +564,17 @@
             label = "CURLY_TO";
         };
 
+        bracket_next: bracket_next {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp V &kp A &kp LPAR &kp PRCNT &kp V>;
+            label = "BRACKET_NEXT";
+        };
+
         curly_next: curly_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DLLR &kp PRCNT &kp DLLR &kp W>;
+            bindings = <&kp L &kp V &kp A &kp LEFT_BRACE &kp PRCNT &kp V>;
             label = "CURLY_NEXT";
         };
     };
@@ -993,18 +1000,18 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp COLON      &kp COLON  &trans       &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp COLON      &kp COLON  &kp COLON    &kp COLON  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &left_brace_m  &trans     &curly_next  &curly_to  &bracket_to
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp COLON      &kp COLON  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp COLON      &kp COLON  &kp COLON  &kp COLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &left_brace_m  &trans     &trans     &curly_to  &bracket_to
                         &trans  &trans  &trans  &trans     &trans         &trans
             >;
         };
 
         layer_9 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &right_brace_m  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &right_brace_m  &trans  &trans  &curly_next  &bracket_next
                         &trans  &trans  &trans  &trans  &trans          &trans
             >;
         };
