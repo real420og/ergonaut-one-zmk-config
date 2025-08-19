@@ -567,7 +567,7 @@
         bracket_next: bracket_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp L &kp V &kp A &kp LPAR &kp DOLLAR &kp V>;
+            bindings = <&kp L &kp V &kp A &kp LPAR &kp V>;
             label = "BRACKET_NEXT";
         };
 
