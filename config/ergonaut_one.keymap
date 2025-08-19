@@ -567,14 +567,14 @@
         bracket_next: bracket_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp L &kp V &kp A &kp LPAR &kp PRCNT &kp V>;
+            bindings = <&kp L &kp V &kp A &kp LPAR &kp DOLLAR &kp V>;
             label = "BRACKET_NEXT";
         };
 
         curly_next: curly_next {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp L &kp V &kp A &kp LEFT_BRACE &kp PRCNT &kp V>;
+            bindings = <&kp L &kp V &kp A &kp LEFT_BRACE &kp DOLLAR &kp V>;
             label = "CURLY_NEXT";
         };
     };
