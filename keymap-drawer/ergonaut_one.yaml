@@ -135,7 +135,7 @@ layers:
   - ''
   - Alt+Ctl+Gui+E
   - '&command_copy'
-  - ''
+  - {t: '&tab_ctrl', h: '&command_grave'}
   - '-'
   - '='
   - '&tt_key_cast'
@@ -159,7 +159,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: '5', h: '&tab_command'}
   - '6'
   - '7'
   - '8'
