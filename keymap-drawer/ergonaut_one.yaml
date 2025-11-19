@@ -131,7 +131,7 @@ layers:
   - ''
   numbers:
   - ''
-  - ''
+  - {t: '5', h: '&tab_command'}
   - ''
   - Alt+Ctl+Gui+E
   - '&command_copy'
@@ -307,7 +307,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: '&tab_ctrl', h: '&command_grave'}
   - Sft+-
   - Sft+=
   - ''
